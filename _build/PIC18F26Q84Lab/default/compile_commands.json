@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\main.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\main.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\main.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\main.c.p1"
+},
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\clock.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\clock.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\clock.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\clock.c.p1"
+},
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c.p1"
+},
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c.p1"
+},
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\pins.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\pins.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\pins.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\pins.c.p1"
+},
+{
+  "directory": "C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/_build/PIC18F26Q84Lab/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F26Q84__ -c -mcpu=18F26Q84 -mdfp=C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\system.c.p1 -c C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\system.c",
+  "file": "C:\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\system.c",
+  "output": "CMakeFiles\\PIC18F26Q84Lab_default_default_XC8_compile.dir\\C_\\Users\\miken\\MPLABProjects\\PIC18F26Q84Lab\\config.mcc\\mcc_generated_files\\system\\src\\system.c.p1"
+}
+]

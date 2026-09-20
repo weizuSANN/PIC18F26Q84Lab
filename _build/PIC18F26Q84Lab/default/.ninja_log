@@ -1,0 +1,17 @@
+# ninja log v7
+38	90	8116175936953009	CMakeFiles/clean.additional	97fe0a3f4e049a13
+91	101	8116175937472637	clean	95dcc1016702e437
+30	460	8116179044082637	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/config_bits.c.p1	8eac0f8c4325fe0b
+41	625	8116179044192734	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/pins.c.p1	e9db96afd096e93
+23	616	8116179044021119	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/clock.c.p1	ea61a136a042a30a
+35	614	8116179044142630	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/interrupt.c.p1	193e0079749c98f2
+50	605	8116179044293302	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/system.c.p1	a18bcb7af0c0c7d5
+18	618	8116179043971166	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/main.c.p1	cac94934362b956c
+625	1727	8116179050040345	C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/out/PIC18F26Q84Lab/default.elf	5927e1c94ea73cc
+45	524	8116182415627291	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/config_bits.c.p1	8eac0f8c4325fe0b
+51	675	8116182415682517	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/interrupt.c.p1	193e0079749c98f2
+30	677	8116182415476700	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/main.c.p1	cac94934362b956c
+63	678	8116182415808447	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/system.c.p1	a18bcb7af0c0c7d5
+56	711	8116182415733702	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/pins.c.p1	e9db96afd096e93
+40	726	8116182415577292	CMakeFiles/PIC18F26Q84Lab_default_default_XC8_compile.dir/C_/Users/miken/MPLABProjects/PIC18F26Q84Lab/config.mcc/mcc_generated_files/system/src/clock.c.p1	ea61a136a042a30a
+726	1776	8116182422434707	C:/Users/miken/MPLABProjects/PIC18F26Q84Lab/out/PIC18F26Q84Lab/default.elf	5927e1c94ea73cc
