@@ -48,7 +48,8 @@
                 "config.mcc/mcc_generated_files/system/src/config_bits.c",
                 "config.mcc/mcc_generated_files/system/src/system.c",
                 "config.mcc/main.c",
-                "config.mcc/mcc_generated_files/system/src/pins.c"
+                "config.mcc/mcc_generated_files/system/src/pins.c",
+                "config.mcc/mcc_generated_files/uart/src/uart1.c"
             ]
         }
     ]

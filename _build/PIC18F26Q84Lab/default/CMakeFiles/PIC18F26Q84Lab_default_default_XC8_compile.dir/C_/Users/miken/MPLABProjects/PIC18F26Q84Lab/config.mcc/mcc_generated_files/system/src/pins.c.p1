@@ -55,6 +55,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _RC3I2C `Vuc ~T0 @X0 0 e@647 ]
 "29532
 [v _RC4I2C `Vuc ~T0 @X0 0 e@646 ]
+"28836
+[v _U1RXPPS `Vuc ~T0 @X0 0 e@626 ]
+"24293
+[v _RB4PPS `Vuc ~T0 @X0 0 e@525 ]
 "59447
 [v _IOCAP `Vuc ~T0 @X0 0 e@1029 ]
 "59509
@@ -2452,7 +2456,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "56
 [e = _TRISA -> -> 255 `i `uc ]
 "57
-[e = _TRISB -> -> 255 `i `uc ]
+[e = _TRISB -> -> 239 `i `uc ]
 "58
 [e = _TRISC -> -> 255 `i `uc ]
 "59
@@ -2460,7 +2464,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "64
 [e = _ANSELA -> -> 255 `i `uc ]
 "65
-[e = _ANSELB -> -> 255 `i `uc ]
+[e = _ANSELB -> -> 207 `i `uc ]
 "66
 [e = _ANSELC -> -> 255 `i `uc ]
 "71
@@ -2493,39 +2497,43 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _RC3I2C -> -> 0 `i `uc ]
 "98
 [e = _RC4I2C -> -> 0 `i `uc ]
-"106
-[e = _IOCAP -> -> 0 `i `uc ]
-"107
-[e = _IOCAN -> -> 0 `i `uc ]
+"102
+[e = _U1RXPPS -> -> 13 `i `uc ]
+"103
+[e = _RB4PPS -> -> 32 `i `uc ]
 "108
-[e = _IOCAF -> -> 0 `i `uc ]
+[e = _IOCAP -> -> 0 `i `uc ]
 "109
-[e = _IOCBP -> -> 0 `i `uc ]
+[e = _IOCAN -> -> 0 `i `uc ]
 "110
-[e = _IOCBN -> -> 0 `i `uc ]
+[e = _IOCAF -> -> 0 `i `uc ]
 "111
-[e = _IOCBF -> -> 0 `i `uc ]
+[e = _IOCBP -> -> 0 `i `uc ]
 "112
-[e = _IOCCP -> -> 0 `i `uc ]
+[e = _IOCBN -> -> 0 `i `uc ]
 "113
-[e = _IOCCN -> -> 0 `i `uc ]
+[e = _IOCBF -> -> 0 `i `uc ]
 "114
-[e = _IOCCF -> -> 0 `i `uc ]
+[e = _IOCCP -> -> 0 `i `uc ]
 "115
-[e = _IOCEP -> -> 0 `i `uc ]
+[e = _IOCCN -> -> 0 `i `uc ]
 "116
-[e = _IOCEN -> -> 0 `i `uc ]
+[e = _IOCCF -> -> 0 `i `uc ]
 "117
+[e = _IOCEP -> -> 0 `i `uc ]
+"118
+[e = _IOCEN -> -> 0 `i `uc ]
+"119
 [e = _IOCEF -> -> 0 `i `uc ]
-"120
+"122
 [e :UE 3299 ]
 }
-"122
+"124
 [v _PIN_MANAGER_IOC `(v ~T0 @X0 1 ef ]
-"123
+"125
 {
 [e :U _PIN_MANAGER_IOC ]
 [f ]
-"124
+"126
 [e :UE 3300 ]
 }

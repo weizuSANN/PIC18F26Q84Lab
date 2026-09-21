@@ -1,96 +1,226 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F23343 `(v ~T0 @X0 0 tf ]
-[v F23345 `(v ~T0 @X0 0 tf ]
-[v F23347 `(v ~T0 @X0 0 tf ]
-"3104 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[s S3136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3136 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
-"3113
-[s S3137 :7 `uc 1 :1 `uc 1 ]
-[n S3137 . . GIEH ]
-"3103
-[u S3135 `S3136 1 `S3137 1 ]
-[n S3135 . . . ]
-"3118
-[v _INTCON0bits `VS3135 ~T0 @X0 0 e@1238 ]
-"1581
-[s S3083 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3083 . INT0IF ZCDIF ADIF ACTIF C1IF SMT1IF SMT1PRAIF SMT1PWAIF ]
-"1580
-[u S3082 `S3083 1 ]
-[n S3082 . . ]
-"1592
-[v _PIR1bits `VS3082 ~T0 @X0 0 e@1199 ]
-[v F6 `(v ~T0 @X0 0 tf ]
-"236 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
-[v _INT0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F6 ]
-"255
-[v _INT0_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
-"1899 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[s S3094 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3094 . INT1IF CLC2IF CWG1IF NCO1IF DMA2SCNTIF DMA2DCNTIF DMA2ORIF DMA2AIF ]
-"1898
-[u S3093 `S3094 1 ]
-[n S3093 . . ]
-"1910
-[v _PIR6bits `VS3093 ~T0 @X0 0 e@1204 ]
-[v F15 `(v ~T0 @X0 0 tf ]
-"282 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
-[v _INT1_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F15 ]
-"301
-[v _INT1_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
-"2137 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[s S3102 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3102 . INT2IF CLC5IF CWG2IF NCO2IF DMA3SCNTIF DMA3DCNTIF DMA3ORIF DMA3AIF ]
-"2136
-[u S3101 `S3102 1 ]
-[n S3101 . . ]
-"2148
-[v _PIR10bits `VS3101 ~T0 @X0 0 e@1208 ]
-[v F24 `(v ~T0 @X0 0 tf ]
-"328 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
-[v _INT2_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F24 ]
-"347
-[v _INT2_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
-[t ~ __interrupt . k ]
-[t T1 __interrupt ]
+[v F23210 `(v ~T0 @X0 0 tf ]
+[v F23212 `(v ~T0 @X0 0 tf ]
+[v F23214 `(uc ~T0 @X0 0 tf ]
+[v F23216 `(v ~T0 @X0 0 tf1`uc ]
+[v F23219 `(a ~T0 @X0 0 tf ]
+[v F23221 `(a ~T0 @X0 0 tf ]
+[v F23223 `(a ~T0 @X0 0 tf ]
+[v F23225 `(v ~T0 @X0 0 tf ]
+[v F23227 `(v ~T0 @X0 0 tf ]
+[v F23229 `(v ~T0 @X0 0 tf1`a ]
+[v F23232 `(a ~T0 @X0 0 tf ]
+[v F23234 `(a ~T0 @X0 0 tf ]
+[v F23236 `(v ~T0 @X0 0 tf1`ul ]
+[v F23239 `(ul ~T0 @X0 0 tf ]
+[v F23241 `(v ~T0 @X0 0 tf1`ul ]
+[v F23244 `(ul ~T0 @X0 0 tf ]
+[v F23246 `(ui ~T0 @X0 0 tf ]
+[v F23249 `(v ~T0 @X0 0 tf ]
+[v F23248 `(v ~T0 @X0 0 tf1`*F23249 ]
+[v F23253 `(v ~T0 @X0 0 tf ]
+[v F23252 `(v ~T0 @X0 0 tf1`*F23253 ]
+[v F23257 `(v ~T0 @X0 0 tf ]
+[v F23256 `(v ~T0 @X0 0 tf1`*F23257 ]
+[v F23261 `(v ~T0 @X0 0 tf ]
+[v F23260 `(v ~T0 @X0 0 tf1`*F23261 ]
+[v F23265 `(v ~T0 @X0 0 tf ]
+[v F23264 `(v ~T0 @X0 0 tf1`*F23265 ]
+[v F23269 `(v ~T0 @X0 0 tf ]
+[v F23268 `(v ~T0 @X0 0 tf1`*F23269 ]
+[v F23273 `(v ~T0 @X0 0 tf ]
+[v F23272 `(v ~T0 @X0 0 tf1`*F23273 ]
+"54 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src/../uart_drv_interface.h
+[s S3301 `*F23210 1 `*F23212 1 `*F23214 1 `*F23216 1 `*F23219 1 `*F23221 1 `*F23223 1 `*F23225 1 `*F23227 1 `*F23229 1 `*F23232 1 `*F23234 1 `*F23236 1 `*F23239 1 `*F23241 1 `*F23244 1 `*F23246 1 `*F23248 1 `*F23252 1 `*F23256 1 `*F23260 1 `*F23264 1 `*F23268 1 `*F23272 1 ]
+[n S3301 . Initialize Deinitialize Read Write IsRxReady IsTxReady IsTxDone TransmitEnable TransmitDisable AutoBaudSet AutoBaudQuery AutoBaudEventEnableGet BRGCountSet BRGCountGet BaudRateSet BaudRateGet ErrorGet TxCompleteCallbackRegister RxCompleteCallbackRegister TxCollisionCallbackRegister FramingErrorCallbackRegister OverrunErrorCallbackRegister ParityErrorCallbackRegister EventCallbackRegister ]
+"91 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src/../uart1.h
+[v _UART1_Initialize `(v ~T0 @X0 0 ef ]
+"100
+[v _UART1_Deinitialize `(v ~T0 @X0 0 ef ]
+"286
+[v _UART1_Read `(uc ~T0 @X0 0 ef ]
+"296
+[v _UART1_Write `(v ~T0 @X0 0 ef1`uc ]
+"248
+[v _UART1_IsRxReady `(a ~T0 @X0 0 ef ]
+"257
+[v _UART1_IsTxReady `(a ~T0 @X0 0 ef ]
+"266
+[v _UART1_IsTxDone `(a ~T0 @X0 0 ef ]
+"125
+[v _UART1_TransmitEnable `(v ~T0 @X0 0 ef ]
+"133
+[v _UART1_TransmitDisable `(v ~T0 @X0 0 ef ]
+"206
+[v _UART1_AutoBaudSet `(v ~T0 @X0 0 ef1`a ]
+"215
+[v _UART1_AutoBaudQuery `(a ~T0 @X0 0 ef ]
+[v F23356 `(a ~T0 @X0 0 tf ]
+[v F23357 `(v ~T0 @X0 0 tf1`ul ]
+[v F23359 `(ul ~T0 @X0 0 tf ]
+[v F23360 `(v ~T0 @X0 0 tf1`ul ]
+[v F23362 `(ul ~T0 @X0 0 tf ]
+"276
+[v _UART1_ErrorGet `(ui ~T0 @X0 0 ef ]
+[v F23328 `(v ~T0 @X0 0 tf ]
+"337
+[v _UART1_TxCompleteCallbackRegister `(v ~T0 @X0 0 ef1`*F23328 ]
+[v F23335 `(v ~T0 @X0 0 tf ]
+"361
+[v _UART1_RxCompleteCallbackRegister `(v ~T0 @X0 0 ef1`*F23335 ]
+[v F23371 `(v ~T0 @X0 0 tf ]
+[v F23370 `(v ~T0 @X0 0 tf1`*F23371 ]
+[v F23314 `(v ~T0 @X0 0 tf ]
+"304
+[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F23314 ]
+[v F23318 `(v ~T0 @X0 0 tf ]
+"312
+[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F23318 ]
+[v F23322 `(v ~T0 @X0 0 tf ]
+"320
+[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 0 ef1`*F23322 ]
+[v F23383 `(v ~T0 @X0 0 tf ]
+[v F23382 `(v ~T0 @X0 0 tf1`*F23383 ]
+"68
+[s S3303 :1 `uc 1 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S3303 . perr ferr oerr reserved ]
+"67
+[u S3302 `S3303 1 `ui 1 ]
+[n S3302 . . status ]
+[v F23396 `(v ~T0 @X0 0 tf ]
+[v F23398 `(v ~T0 @X0 0 tf ]
+[v F23400 `(v ~T0 @X0 0 tf ]
+[v F23402 `(v ~T0 @X0 0 tf ]
+[v F23404 `(v ~T0 @X0 0 tf ]
+[v F23405 `(v ~T0 @X0 0 tf ]
+[v F23407 `(v ~T0 @X0 0 tf ]
+[v F23409 `(v ~T0 @X0 0 tf ]
+[v F23410 `(v ~T0 @X0 0 tf ]
 "790 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[s S3057 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3057 . U1RXIE U1TXIE U1EIE U1IE CANRXIE CANTXIE PWM1PIE PWM1IE ]
+[s S3059 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3059 . U1RXIE U1TXIE U1EIE U1IE CANRXIE CANTXIE PWM1PIE PWM1IE ]
 "789
-[u S3056 `S3057 1 ]
-[n S3056 . . ]
+[u S3058 `S3059 1 ]
+[n S3058 . . ]
 "801
-[v _PIE4bits `VS3056 ~T0 @X0 0 e@1186 ]
-"1775
-[s S3090 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3090 . U1RXIF U1TXIF U1EIF U1IF CANRXIF CANTXIF PWM1PIF PWM1IF ]
-"1774
-[u S3089 `S3090 1 ]
-[n S3089 . . ]
-"1786
-[v _PIR4bits `VS3089 ~T0 @X0 0 e@1202 ]
-[v F23325 `(v ~T0 @X0 0 tf ]
-"329 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/../uart/uart1.h
-[v _UART1_TxInterruptHandler `*F23325 ~T0 @X0 0 e ]
-[v F23332 `(v ~T0 @X0 0 tf ]
-"354
-[v _UART1_RxInterruptHandler `*F23332 ~T0 @X0 0 e ]
-"227 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
-[v _INT0_CallBack `(v ~T0 @X0 0 ef ]
-[v F23355 `(v ~T0 @X0 0 tf ]
-[v F23357 `(v ~T0 @X0 0 tf ]
-[v F23359 `(v ~T0 @X0 0 tf ]
-"273
-[v _INT1_CallBack `(v ~T0 @X0 0 ef ]
-[v F23364 `(v ~T0 @X0 0 tf ]
-[v F23366 `(v ~T0 @X0 0 tf ]
-[v F23368 `(v ~T0 @X0 0 tf ]
-"319
-[v _INT2_CallBack `(v ~T0 @X0 0 ef ]
-[v F23373 `(v ~T0 @X0 0 tf ]
-[v F23375 `(v ~T0 @X0 0 tf ]
-[v F23377 `(v ~T0 @X0 0 tf ]
+[v _PIE4bits `VS3058 ~T0 @X0 0 e@1186 ]
+"117 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1_ReceiveISR `(v ~T0 @X0 0 ef ]
+"116
+[v _UART1_TransmitISR `(v ~T0 @X0 0 ef ]
+"31270 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[v _U1RXB `Vuc ~T0 @X0 0 e@673 ]
+"31308
+[v _U1RXCHK `Vuc ~T0 @X0 0 e@674 ]
+"31328
+[v _U1TXB `Vuc ~T0 @X0 0 e@675 ]
+"31366
+[v _U1TXCHK `Vuc ~T0 @X0 0 e@676 ]
+"31393
+[v _U1P1L `Vuc ~T0 @X0 0 e@677 ]
+"31413
+[v _U1P1H `Vuc ~T0 @X0 0 e@678 ]
+"31440
+[v _U1P2L `Vuc ~T0 @X0 0 e@679 ]
+"31460
+[v _U1P2H `Vuc ~T0 @X0 0 e@680 ]
+"31487
+[v _U1P3L `Vuc ~T0 @X0 0 e@681 ]
+"31507
+[v _U1P3H `Vuc ~T0 @X0 0 e@682 ]
+"31527
+[v _U1CON0 `Vuc ~T0 @X0 0 e@683 ]
+"31655
+[v _U1CON1 `Vuc ~T0 @X0 0 e@684 ]
+"31735
+[v _U1CON2 `Vuc ~T0 @X0 0 e@685 ]
+"31884
+[v _U1BRGL `Vuc ~T0 @X0 0 e@686 ]
+"31904
+[v _U1BRGH `Vuc ~T0 @X0 0 e@687 ]
+"31924
+[v _U1FIFO `Vuc ~T0 @X0 0 e@688 ]
+"32054
+[v _U1UIR `Vuc ~T0 @X0 0 e@689 ]
+"32110
+[v _U1ERRIR `Vuc ~T0 @X0 0 e@690 ]
+"32222
+[v _U1ERRIE `Vuc ~T0 @X0 0 e@691 ]
+"113 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1_DefaultFramingErrorCallback `(v ~T0 @X0 0 sf ]
+"114
+[v _UART1_DefaultOverrunErrorCallback `(v ~T0 @X0 0 sf ]
+"115
+[v _UART1_DefaultParityErrorCallback `(v ~T0 @X0 0 sf ]
+"31661 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[s S1492 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S1492 . SENDB BRKOVR . RXBIMD WUE . ON ]
+"31670
+[s S1493 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S1493 . U1SENDB U1BRKOVR . U1RXBIMD U1WUE . U1ON ]
+"31660
+[u S1491 `S1492 1 `S1493 1 ]
+[n S1491 . . . ]
+"31680
+[v _U1CON1bits `VS1491 ~T0 @X0 0 e@684 ]
+"31533
+[s S1487 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1487 . MODE0 MODE1 MODE2 MODE3 ]
+"31539
+[s S1488 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1488 . U1MODE U1RXEN U1TXEN U1ABDEN U1BRGS ]
+"31546
+[s S1489 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1489 . U1MODE0 U1MODE1 U1MODE2 U1MODE3 ]
+"31552
+[s S1490 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1490 . MODE RXEN TXEN ABDEN BRGS ]
+"31532
+[u S1486 `S1487 1 `S1488 1 `S1489 1 `S1490 1 ]
+[n S1486 . . . . . ]
+"31560
+[v _U1CON0bits `VS1486 ~T0 @X0 0 e@683 ]
+"32060
+[s S1509 :2 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1509 . . ABDIE . ABDIF WUIF ]
+"32067
+[s S1510 :2 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1510 . . U1ABDIE . U1ABDIF U1WUIF ]
+"32059
+[u S1508 `S1509 1 `S1510 1 ]
+[n S1508 . . . ]
+"32075
+[v _U1UIRbits `VS1508 ~T0 @X0 0 e@689 ]
+"32116
+[s S1512 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1512 . TXCIF RXFOIF RXBKIF FERIF CERIF ABDOVF PERIF TXMTIF ]
+"32126
+[s S1513 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1513 . U1TXCIF U1RXFOIF U1RXBKIF U1FERIF U1CERIF U1ABDOVF U1PERIF U1TXMTIF ]
+"32115
+[u S1511 `S1512 1 `S1513 1 ]
+[n S1511 . . . ]
+"32137
+[v _U1ERRIRbits `VS1511 ~T0 @X0 0 e@690 ]
+[v F23453 `(v ~T0 @X0 0 tf ]
+[v F23454 `(v ~T0 @X0 0 tf ]
+[v F23455 `(v ~T0 @X0 0 tf ]
+[v F23461 `(v ~T0 @X0 0 tf ]
+[v F23469 `(v ~T0 @X0 0 tf ]
+[v F23471 `(v ~T0 @X0 0 tf ]
+[v F23472 `(v ~T0 @X0 0 tf ]
+[v F23475 `(v ~T0 @X0 0 tf ]
+[v F23477 `(v ~T0 @X0 0 tf ]
+[v F23478 `(v ~T0 @X0 0 tf ]
+[v F23481 `(v ~T0 @X0 0 tf ]
+[v F23483 `(v ~T0 @X0 0 tf ]
+[v F23484 `(v ~T0 @X0 0 tf ]
+[v F23487 `(v ~T0 @X0 0 tf ]
+[v F23489 `(v ~T0 @X0 0 tf ]
+[v F23490 `(v ~T0 @X0 0 tf ]
+[v F23493 `(v ~T0 @X0 0 tf ]
+[v F23495 `(v ~T0 @X0 0 tf ]
+[v F23496 `(v ~T0 @X0 0 tf ]
 "290 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
 [; <" BOOTREG equ 038h ;# ">
 "322
@@ -2443,225 +2573,869 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 04FEh ;# ">
 "69896
 [; <" TOSU equ 04FFh ;# ">
-"38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
-[v _INT0_InterruptHandler `*F23343 ~T0 @X0 1 e ]
-"39
-[v _INT1_InterruptHandler `*F23345 ~T0 @X0 1 e ]
-"40
-[v _INT2_InterruptHandler `*F23347 ~T0 @X0 1 e ]
-"42
-[v _INTERRUPT_Initialize `(v ~T0 @X0 1 ef ]
-"43
-{
-[e :U _INTERRUPT_Initialize ]
-[f ]
-"45
-[e = . . _INTCON0bits 0 4 -> -> 0 `i `uc ]
-"49
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"50
-[e = . . _INTCON0bits 0 0 -> -> 1 `i `uc ]
-"52
-[e ( _INT0_SetInterruptHandler (1 &U _INT0_DefaultInterruptHandler ]
-"57
-[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
-"58
-[e = . . _INTCON0bits 0 1 -> -> 1 `i `uc ]
-"60
-[e ( _INT1_SetInterruptHandler (1 &U _INT1_DefaultInterruptHandler ]
-"65
-[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
-"66
-[e = . . _INTCON0bits 0 2 -> -> 1 `i `uc ]
-"68
-[e ( _INT2_SetInterruptHandler (1 &U _INT2_DefaultInterruptHandler ]
-"71
-[e :UE 3304 ]
-}
-[v $root$_INTERRUPT_InterruptManager `(v ~T0 @X0 0 e ]
-"80
-[v _INTERRUPT_InterruptManager `(v ~T1 @X0 1 ef ]
-"81
-{
-[e :U _INTERRUPT_InterruptManager ]
-[f ]
+"53 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1 `CS3301 ~T0 @X0 1 e ]
+[i _UART1
+:U ..
+:U ..
+&U _UART1_Initialize
+&U _UART1_Deinitialize
+&U _UART1_Read
+&U _UART1_Write
+&U _UART1_IsRxReady
+&U _UART1_IsTxReady
+&U _UART1_IsTxDone
+&U _UART1_TransmitEnable
+&U _UART1_TransmitDisable
+&U _UART1_AutoBaudSet
+&U _UART1_AutoBaudQuery
+-> -> -> 0 `i `*v `*F23356
+-> -> -> 0 `i `*v `*F23357
+-> -> -> 0 `i `*v `*F23359
+-> -> -> 0 `i `*v `*F23360
+-> -> -> 0 `i `*v `*F23362
+&U _UART1_ErrorGet
+&U _UART1_TxCompleteCallbackRegister
+&U _UART1_RxCompleteCallbackRegister
+-> -> -> 0 `i `*v `*F23370
+&U _UART1_FramingErrorCallbackRegister
+&U _UART1_OverrunErrorCallbackRegister
+&U _UART1_ParityErrorCallbackRegister
+-> -> -> 0 `i `*v `*F23382
+..
+..
+]
 "83
-[e $ ! && == -> . . _PIE4bits 0 1 `i -> 1 `i == -> . . _PIR4bits 0 1 `i -> 1 `i 3306  ]
+[v _uart1TxHead `Vuc ~T0 @X0 1 s ]
+[i _uart1TxHead
+-> -> 0 `i `uc
+]
 "84
-{
+[v _uart1TxTail `Vuc ~T0 @X0 1 s ]
+[i _uart1TxTail
+-> -> 0 `i `uc
+]
 "85
-[e ( *U _UART1_TxInterruptHandler ..  ]
+[v _uart1TxBuffer `Vuc ~T0 @X0 -> 64 `i s ]
 "86
-}
-[e $U 3307  ]
-"87
-[e :U 3306 ]
-[e $ ! && == -> . . _PIE4bits 0 0 `i -> 1 `i == -> . . _PIR4bits 0 0 `i -> 1 `i 3308  ]
+[v _uart1TxBufferRemaining `Vuc ~T0 @X0 1 s ]
 "88
-{
+[v _uart1RxHead `Vuc ~T0 @X0 1 s ]
+[i _uart1RxHead
+-> -> 0 `i `uc
+]
 "89
-[e ( *U _UART1_RxInterruptHandler ..  ]
+[v _uart1RxTail `Vuc ~T0 @X0 1 s ]
+[i _uart1RxTail
+-> -> 0 `i `uc
+]
 "90
-}
-[e $U 3309  ]
+[v _uart1RxBuffer `Vuc ~T0 @X0 -> 64 `i s ]
 "91
-[e :U 3308 ]
+[v _uart1RxStatusBuffer `VS3302 ~T0 @X0 -> 64 `i s ]
 "92
-{
-"94
-}
-[e :U 3309 ]
-[e :U 3307 ]
-"95
-[e :UE 3305 ]
-}
-"97
-[v _INT0_ISR `(v ~T0 @X0 1 ef ]
-"98
-{
-[e :U _INT0_ISR ]
-[f ]
+[v _uart1RxCount `Vuc ~T0 @X0 1 s ]
 "99
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"102
-[e ( _INT0_CallBack ..  ]
-"103
-[e :UE 3310 ]
-}
+[v _uart1RxLastError `VS3302 ~T0 @X0 1 s ]
+"105
+[v _UART1_FramingErrorHandler `*F23396 ~T0 @X0 1 s ]
 "106
-[v _INT0_CallBack `(v ~T0 @X0 1 ef ]
+[v _UART1_OverrunErrorHandler `*F23398 ~T0 @X0 1 s ]
 "107
-{
-[e :U _INT0_CallBack ]
-[f ]
+[v _UART1_ParityErrorHandler `*F23400 ~T0 @X0 1 s ]
+"108
+[v _UART1_TxInterruptHandler `*F23402 ~T0 @X0 1 e ]
 "109
-[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F23355 3312  ]
+[v _UART1_TxCompleteInterruptHandler `*F23404 ~T0 @X0 1 s ]
+[i _UART1_TxCompleteInterruptHandler
+-> -> -> 0 `i `*v `*F23405
+]
 "110
-{
+[v _UART1_RxInterruptHandler `*F23407 ~T0 @X0 1 e ]
 "111
-[e ( *U _INT0_InterruptHandler ..  ]
-"112
-}
-[e :U 3312 ]
-"113
-[e :UE 3311 ]
-}
-"115
-[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23357 ]
-{
-[e :U _INT0_SetInterruptHandler ]
-[v _InterruptHandler `*F23359 ~T0 @X0 1 r1 ]
-[f ]
-"116
-[e = _INT0_InterruptHandler _InterruptHandler ]
-"117
-[e :UE 3313 ]
-}
-"119
-[v _INT0_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
-{
-[e :U _INT0_DefaultInterruptHandler ]
-[f ]
-"122
-[e :UE 3314 ]
-}
+[v _UART1_RxCompleteInterruptHandler `*F23409 ~T0 @X0 1 s ]
+[i _UART1_RxCompleteInterruptHandler
+-> -> -> 0 `i `*v `*F23410
+]
 "123
-[v _INT1_ISR `(v ~T0 @X0 1 ef ]
+[v _UART1_Initialize `(v ~T0 @X0 1 ef ]
 "124
 {
-[e :U _INT1_ISR ]
+[e :U _UART1_Initialize ]
 [f ]
 "125
-[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"126
+[e = _UART1_RxInterruptHandler &U _UART1_ReceiveISR ]
+"127
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
 "128
-[e ( _INT1_CallBack ..  ]
-"129
-[e :UE 3315 ]
-}
-"132
-[v _INT1_CallBack `(v ~T0 @X0 1 ef ]
+[e = _UART1_TxInterruptHandler &U _UART1_TransmitISR ]
 "133
-{
-[e :U _INT1_CallBack ]
-[f ]
+[e = _U1RXB -> -> 0 `i `uc ]
 "135
-[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F23364 3317  ]
-"136
-{
+[e = _U1RXCHK -> -> 0 `i `uc ]
 "137
-[e ( *U _INT1_InterruptHandler ..  ]
-"138
-}
-[e :U 3317 ]
+[e = _U1TXB -> -> 0 `i `uc ]
 "139
-[e :UE 3316 ]
-}
+[e = _U1TXCHK -> -> 0 `i `uc ]
 "141
-[v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23366 ]
-{
-[e :U _INT1_SetInterruptHandler ]
-[v _InterruptHandler `*F23368 ~T0 @X0 1 r1 ]
-[f ]
-"142
-[e = _INT1_InterruptHandler _InterruptHandler ]
+[e = _U1P1L -> -> 0 `i `uc ]
 "143
+[e = _U1P1H -> -> 0 `i `uc ]
+"145
+[e = _U1P2L -> -> 0 `i `uc ]
+"147
+[e = _U1P2H -> -> 0 `i `uc ]
+"149
+[e = _U1P3L -> -> 0 `i `uc ]
+"151
+[e = _U1P3H -> -> 0 `i `uc ]
+"153
+[e = _U1CON0 -> -> 176 `i `uc ]
+"155
+[e = _U1CON1 -> -> 128 `i `uc ]
+"157
+[e = _U1CON2 -> -> 8 `i `uc ]
+"159
+[e = _U1BRGL -> -> 138 `i `uc ]
+"161
+[e = _U1BRGH -> -> 0 `i `uc ]
+"163
+[e = _U1FIFO -> -> 46 `i `uc ]
+"165
+[e = _U1UIR -> -> 0 `i `uc ]
+"167
+[e = _U1ERRIR -> -> 128 `i `uc ]
+"169
+[e = _U1ERRIE -> -> 0 `i `uc ]
+"171
+[e ( _UART1_FramingErrorCallbackRegister (1 &U _UART1_DefaultFramingErrorCallback ]
+"172
+[e ( _UART1_OverrunErrorCallbackRegister (1 &U _UART1_DefaultOverrunErrorCallback ]
+"173
+[e ( _UART1_ParityErrorCallbackRegister (1 &U _UART1_DefaultParityErrorCallback ]
+"175
+[e = . _uart1RxLastError 1 -> -> 0 `i `ui ]
+"176
+[e = _uart1TxHead -> -> 0 `i `uc ]
+"177
+[e = _uart1TxTail -> -> 0 `i `uc ]
+"178
+[e = _uart1TxBufferRemaining -> -> # _uart1TxBuffer `ui `uc ]
+"179
+[e = _uart1RxHead -> -> 0 `i `uc ]
+"180
+[e = _uart1RxTail -> -> 0 `i `uc ]
+"181
+[e = _uart1RxCount -> -> 0 `i `uc ]
+"182
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"183
+[e :UE 3304 ]
+}
+"185
+[v _UART1_Deinitialize `(v ~T0 @X0 1 ef ]
+"186
+{
+[e :U _UART1_Deinitialize ]
+[f ]
+"187
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"188
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"189
+[e = _U1RXB -> -> 0 `i `uc ]
+"190
+[e = _U1RXCHK -> -> 0 `i `uc ]
+"191
+[e = _U1TXB -> -> 0 `i `uc ]
+"192
+[e = _U1TXCHK -> -> 0 `i `uc ]
+"193
+[e = _U1P1L -> -> 0 `i `uc ]
+"194
+[e = _U1P1H -> -> 0 `i `uc ]
+"195
+[e = _U1P2L -> -> 0 `i `uc ]
+"196
+[e = _U1P2H -> -> 0 `i `uc ]
+"197
+[e = _U1P3L -> -> 0 `i `uc ]
+"198
+[e = _U1P3H -> -> 0 `i `uc ]
+"199
+[e = _U1CON0 -> -> 0 `i `uc ]
+"200
+[e = _U1CON1 -> -> 0 `i `uc ]
+"201
+[e = _U1CON2 -> -> 0 `i `uc ]
+"202
+[e = _U1BRGL -> -> 0 `i `uc ]
+"203
+[e = _U1BRGH -> -> 0 `i `uc ]
+"204
+[e = _U1FIFO -> -> 0 `i `uc ]
+"205
+[e = _U1UIR -> -> 0 `i `uc ]
+"206
+[e = _U1ERRIR -> -> 0 `i `uc ]
+"207
+[e = _U1ERRIE -> -> 0 `i `uc ]
+"208
+[e :UE 3305 ]
+}
+"210
+[v _UART1_Enable `(v ~T0 @X0 1 ef ]
+"211
+{
+[e :U _UART1_Enable ]
+[f ]
+"212
+[e = . . _U1CON1bits 0 6 -> -> 1 `i `uc ]
+"213
+[e :UE 3306 ]
+}
+"215
+[v _UART1_Disable `(v ~T0 @X0 1 ef ]
+"216
+{
+[e :U _UART1_Disable ]
+[f ]
+"217
+[e = . . _U1CON1bits 0 6 -> -> 0 `i `uc ]
+"218
+[e :UE 3307 ]
+}
+"220
+[v _UART1_TransmitEnable `(v ~T0 @X0 1 ef ]
+"221
+{
+[e :U _UART1_TransmitEnable ]
+[f ]
+"222
+[e = . . _U1CON0bits 3 2 -> -> 1 `i `uc ]
+"223
+[e :UE 3308 ]
+}
+"225
+[v _UART1_TransmitDisable `(v ~T0 @X0 1 ef ]
+"226
+{
+[e :U _UART1_TransmitDisable ]
+[f ]
+"227
+[e = . . _U1CON0bits 3 2 -> -> 0 `i `uc ]
+"228
+[e :UE 3309 ]
+}
+"230
+[v _UART1_ReceiveEnable `(v ~T0 @X0 1 ef ]
+"231
+{
+[e :U _UART1_ReceiveEnable ]
+[f ]
+"232
+[e = . . _U1CON0bits 3 1 -> -> 1 `i `uc ]
+"233
+[e :UE 3310 ]
+}
+"235
+[v _UART1_ReceiveDisable `(v ~T0 @X0 1 ef ]
+"236
+{
+[e :U _UART1_ReceiveDisable ]
+[f ]
+"237
+[e = . . _U1CON0bits 3 1 -> -> 0 `i `uc ]
+"238
+[e :UE 3311 ]
+}
+"240
+[v _UART1_SendBreakControlEnable `(v ~T0 @X0 1 ef ]
+"241
+{
+[e :U _UART1_SendBreakControlEnable ]
+[f ]
+"242
+[e = . . _U1CON1bits 0 0 -> -> 1 `i `uc ]
+"243
+[e :UE 3312 ]
+}
+"245
+[v _UART1_SendBreakControlDisable `(v ~T0 @X0 1 ef ]
+"246
+{
+[e :U _UART1_SendBreakControlDisable ]
+[f ]
+"247
+[e = . . _U1CON1bits 0 0 -> -> 0 `i `uc ]
+"248
+[e :UE 3313 ]
+}
+"250
+[v _UART1_AutoBaudSet `(v ~T0 @X0 1 ef1`a ]
+"251
+{
+[e :U _UART1_AutoBaudSet ]
+"250
+[v _enable `a ~T0 @X0 1 r1 ]
+"251
+[f ]
+"252
+[e $ ! != -> _enable `i -> 0 `i 3315  ]
+"253
+{
+"254
+[e = . . _U1CON0bits 3 3 -> -> 1 `i `uc ]
+"255
+}
+[e $U 3316  ]
+"256
+[e :U 3315 ]
+"257
+{
+"258
+[e = . . _U1CON0bits 3 3 -> -> 0 `i `uc ]
+"259
+}
+[e :U 3316 ]
+"260
+[e :UE 3314 ]
+}
+"263
+[v _UART1_AutoBaudQuery `(a ~T0 @X0 1 ef ]
+"264
+{
+[e :U _UART1_AutoBaudQuery ]
+[f ]
+"265
+[e ) -> . . _U1UIRbits 0 3 `a ]
+[e $UE 3317  ]
+"266
+[e :UE 3317 ]
+}
+"268
+[v _UART1_AutoBaudDetectCompleteReset `(v ~T0 @X0 1 ef ]
+"269
+{
+[e :U _UART1_AutoBaudDetectCompleteReset ]
+[f ]
+"270
+[e = . . _U1UIRbits 0 3 -> -> 0 `i `uc ]
+"271
 [e :UE 3318 ]
 }
-"145
-[v _INT1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+"273
+[v _UART1_IsAutoBaudDetectOverflow `(a ~T0 @X0 1 ef ]
+"274
 {
-[e :U _INT1_DefaultInterruptHandler ]
+[e :U _UART1_IsAutoBaudDetectOverflow ]
 [f ]
-"148
+"275
+[e ) -> . . _U1ERRIRbits 0 5 `a ]
+[e $UE 3319  ]
+"276
 [e :UE 3319 ]
 }
-"149
-[v _INT2_ISR `(v ~T0 @X0 1 ef ]
-"150
+"278
+[v _UART1_AutoBaudDetectOverflowReset `(v ~T0 @X0 1 ef ]
+"279
 {
-[e :U _INT2_ISR ]
+[e :U _UART1_AutoBaudDetectOverflowReset ]
 [f ]
-"151
-[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
-"154
-[e ( _INT2_CallBack ..  ]
-"155
+"280
+[e = . . _U1ERRIRbits 0 5 -> -> 0 `i `uc ]
+"281
 [e :UE 3320 ]
 }
-"158
-[v _INT2_CallBack `(v ~T0 @X0 1 ef ]
-"159
+"283
+[v _UART1_TransmitInterruptEnable `(v ~T0 @X0 1 ef ]
+"284
 {
-[e :U _INT2_CallBack ]
+[e :U _UART1_TransmitInterruptEnable ]
 [f ]
-"161
-[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F23373 3322  ]
-"162
-{
-"163
-[e ( *U _INT2_InterruptHandler ..  ]
-"164
-}
-[e :U 3322 ]
-"165
+"285
+[e = . . _PIE4bits 0 1 -> -> 1 `i `uc ]
+"286
 [e :UE 3321 ]
 }
-"167
-[v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23375 ]
+"288
+[v _UART1_TransmitInterruptDisable `(v ~T0 @X0 1 ef ]
+"289
 {
-[e :U _INT2_SetInterruptHandler ]
-[v _InterruptHandler `*F23377 ~T0 @X0 1 r1 ]
+[e :U _UART1_TransmitInterruptDisable ]
 [f ]
-"168
-[e = _INT2_InterruptHandler _InterruptHandler ]
-"169
+"290
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"291
+[e :UE 3322 ]
+}
+"293
+[v _UART1_ReceiveInterruptEnable `(v ~T0 @X0 1 ef ]
+"294
+{
+[e :U _UART1_ReceiveInterruptEnable ]
+[f ]
+"295
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"296
 [e :UE 3323 ]
 }
-"171
-[v _INT2_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+"297
+[v _UART1_ReceiveInterruptDisable `(v ~T0 @X0 1 ef ]
+"298
 {
-[e :U _INT2_DefaultInterruptHandler ]
+[e :U _UART1_ReceiveInterruptDisable ]
 [f ]
-"174
+"299
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"300
 [e :UE 3324 ]
+}
+"302
+[v _UART1_IsRxReady `(a ~T0 @X0 1 ef ]
+"303
+{
+[e :U _UART1_IsRxReady ]
+[f ]
+"304
+[e ) -> ? != -> _uart1RxCount `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+[e $UE 3325  ]
+"305
+[e :UE 3325 ]
+}
+"307
+[v _UART1_IsTxReady `(a ~T0 @X0 1 ef ]
+"308
+{
+[e :U _UART1_IsTxReady ]
+[f ]
+"309
+[e ) -> ? != -> _uart1TxBufferRemaining `i -> 0 `i : -> 1 `i -> 0 `i `a ]
+[e $UE 3326  ]
+"310
+[e :UE 3326 ]
+}
+"312
+[v _UART1_IsTxDone `(a ~T0 @X0 1 ef ]
+"313
+{
+[e :U _UART1_IsTxDone ]
+[f ]
+"314
+[e ) -> . . _U1ERRIRbits 0 7 `a ]
+[e $UE 3327  ]
+"315
+[e :UE 3327 ]
+}
+"317
+[v _UART1_ErrorGet `(ui ~T0 @X0 1 ef ]
+"318
+{
+[e :U _UART1_ErrorGet ]
+[f ]
+"319
+[e = . _uart1RxLastError 1 . *U + &U _uart1RxStatusBuffer * -> & + -> _uart1RxTail `ui -> 1 `ui - -> 64 `ui -> 1 `ui `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 1 ]
+"321
+[e ) . _uart1RxLastError 1 ]
+[e $UE 3328  ]
+"322
+[e :UE 3328 ]
+}
+"324
+[v _UART1_Read `(uc ~T0 @X0 1 ef ]
+"325
+{
+[e :U _UART1_Read ]
+[f ]
+"326
+[v _readValue `uc ~T0 @X0 1 a ]
+[e = _readValue -> -> 0 `i `uc ]
+"327
+[v _tempRxTail `uc ~T0 @X0 1 a ]
+"329
+[e = _readValue *U + &U _uart1RxBuffer * -> _uart1RxTail `ux -> -> # *U &U _uart1RxBuffer `ui `ux ]
+"330
+[e = _tempRxTail -> & + -> _uart1RxTail `ui -> 1 `ui - -> 64 `ui -> 1 `ui `uc ]
+"331
+[e = _uart1RxTail _tempRxTail ]
+"332
+[e = . . _PIE4bits 0 0 -> -> 0 `i `uc ]
+"333
+[e $ ! != -> 0 `ui -> _uart1RxCount `ui 3330  ]
+"334
+{
+"335
+[e -- _uart1RxCount -> -> 1 `i `Vuc ]
+"336
+}
+[e :U 3330 ]
+"337
+[e = . . _PIE4bits 0 0 -> -> 1 `i `uc ]
+"338
+[e ) _readValue ]
+[e $UE 3329  ]
+"339
+[e :UE 3329 ]
+}
+"342
+[v _UART1_ReceiveISR `(v ~T0 @X0 1 ef ]
+"343
+{
+[e :U _UART1_ReceiveISR ]
+[f ]
+"344
+[v _regValue `uc ~T0 @X0 1 a ]
+"345
+[v _tempRxHead `uc ~T0 @X0 1 a ]
+"347
+[e = . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 1 -> -> 0 `i `ui ]
+"349
+[e $ ! == -> 1 `i -> . . _U1ERRIRbits 0 3 `i 3332  ]
+"350
+{
+"351
+[e = . . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 0 1 -> -> 1 `i `uc ]
+"352
+[e $ ! != -> -> -> 0 `i `*v `*F23453 _UART1_FramingErrorHandler 3333  ]
+"353
+{
+"354
+[e ( *U _UART1_FramingErrorHandler ..  ]
+"355
+}
+[e :U 3333 ]
+"356
+}
+[e :U 3332 ]
+"357
+[e $ ! == -> 1 `i -> . . _U1ERRIRbits 0 1 `i 3334  ]
+"358
+{
+"359
+[e = . . *U + &U _uart1RxStatusBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxStatusBuffer `ui `ux 0 2 -> -> 1 `i `uc ]
+"360
+[e $ ! != -> -> -> 0 `i `*v `*F23454 _UART1_OverrunErrorHandler 3335  ]
+"361
+{
+"362
+[e ( *U _UART1_OverrunErrorHandler ..  ]
+"363
+}
+[e :U 3335 ]
+"364
+}
+[e :U 3334 ]
+"366
+[e = _regValue _U1RXB ]
+"368
+[e = _tempRxHead -> & + -> _uart1RxHead `ui -> 1 `ui - -> 64 `ui -> 1 `ui `uc ]
+"369
+[e $ ! == -> _tempRxHead `i -> _uart1RxTail `i 3336  ]
+"370
+{
+"372
+}
+[e $U 3337  ]
+"373
+[e :U 3336 ]
+"374
+{
+"375
+[e = *U + &U _uart1RxBuffer * -> _uart1RxHead `ux -> -> # *U &U _uart1RxBuffer `ui `ux _regValue ]
+"376
+[e = _uart1RxHead _tempRxHead ]
+"377
+[e ++ _uart1RxCount -> -> 1 `i `Vuc ]
+"378
+}
+[e :U 3337 ]
+"380
+[e $ ! != -> -> -> 0 `i `*v `*F23455 _UART1_RxCompleteInterruptHandler 3338  ]
+"381
+{
+"382
+[e ( *U _UART1_RxCompleteInterruptHandler ..  ]
+"383
+}
+[e :U 3338 ]
+"384
+[e :UE 3331 ]
+}
+"386
+[v _UART1_Write `(v ~T0 @X0 1 ef1`uc ]
+"387
+{
+[e :U _UART1_Write ]
+"386
+[v _txData `uc ~T0 @X0 1 r1 ]
+"387
+[f ]
+"388
+[v _tempTxHead `uc ~T0 @X0 1 a ]
+"390
+[e $ ! == -> 0 `i -> . . _PIE4bits 0 1 `i 3340  ]
+"391
+{
+"392
+[e = _U1TXB _txData ]
+"393
+}
+[e $U 3341  ]
+"394
+[e :U 3340 ]
+[e $ ! < -> 0 `ui -> _uart1TxBufferRemaining `ui 3342  ]
+"395
+{
+"396
+[e = *U + &U _uart1TxBuffer * -> _uart1TxHead `ux -> -> # *U &U _uart1TxBuffer `ui `ux _txData ]
+"397
+[e = _tempTxHead -> & + -> _uart1TxHead `ui -> 1 `ui - -> 64 `ui -> 1 `ui `uc ]
+"399
+[e = _uart1TxHead _tempTxHead ]
+"400
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"401
+[e -- _uart1TxBufferRemaining -> -> 1 `i `Vuc ]
+"402
+}
+[e $U 3343  ]
+"403
+[e :U 3342 ]
+"404
+{
+"406
+}
+[e :U 3343 ]
+[e :U 3341 ]
+"407
+[e = . . _PIE4bits 0 1 -> -> 1 `i `uc ]
+"408
+[e :UE 3339 ]
+}
+"411
+[v _UART1_TransmitISR `(v ~T0 @X0 1 ef ]
+"412
+{
+[e :U _UART1_TransmitISR ]
+[f ]
+"413
+[v _tempTxTail `uc ~T0 @X0 1 a ]
+"415
+[e $ ! > -> # _uart1TxBuffer `ui -> _uart1TxBufferRemaining `ui 3345  ]
+"416
+{
+"417
+[e = _U1TXB *U + &U _uart1TxBuffer * -> _uart1TxTail `ux -> -> # *U &U _uart1TxBuffer `ui `ux ]
+"418
+[e = _tempTxTail -> & + -> _uart1TxTail `ui -> 1 `ui - -> 64 `ui -> 1 `ui `uc ]
+"420
+[e = _uart1TxTail _tempTxTail ]
+"421
+[e ++ _uart1TxBufferRemaining -> -> 1 `i `Vuc ]
+"422
+}
+[e $U 3346  ]
+"423
+[e :U 3345 ]
+"424
+{
+"425
+[e = . . _PIE4bits 0 1 -> -> 0 `i `uc ]
+"426
+}
+[e :U 3346 ]
+"427
+[e $ ! != -> -> -> 0 `i `*v `*F23461 _UART1_TxCompleteInterruptHandler 3347  ]
+"428
+{
+"429
+[e ( *U _UART1_TxCompleteInterruptHandler ..  ]
+"430
+}
+[e :U 3347 ]
+"431
+[e :UE 3344 ]
+}
+"433
+[v _getch `(i ~T0 @X0 1 ef ]
+"434
+{
+[e :U _getch ]
+[f ]
+"435
+[e $U 3349  ]
+[e :U 3350 ]
+"436
+{
+"438
+}
+[e :U 3349 ]
+"435
+[e $ ! != -> ( _UART1_IsRxReady ..  `i -> 0 `i 3350  ]
+[e :U 3351 ]
+"439
+[e ) -> ( _UART1_Read ..  `i ]
+[e $UE 3348  ]
+"440
+[e :UE 3348 ]
+}
+"442
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+"443
+{
+[e :U _putch ]
+"442
+[v _txData `uc ~T0 @X0 1 r1 ]
+"443
+[f ]
+"444
+[e $U 3353  ]
+[e :U 3354 ]
+"445
+{
+"447
+}
+[e :U 3353 ]
+"444
+[e $ ! != -> ( _UART1_IsTxReady ..  `i -> 0 `i 3354  ]
+[e :U 3355 ]
+"448
+[e ) ( _UART1_Write (1 -> _txData `uc ]
+[e $UE 3352  ]
+"449
+[e :UE 3352 ]
+}
+"455
+[v _UART1_DefaultFramingErrorCallback `(v ~T0 @X0 1 sf ]
+"456
+{
+[e :U _UART1_DefaultFramingErrorCallback ]
+[f ]
+"458
+[e :UE 3356 ]
+}
+"460
+[v _UART1_DefaultOverrunErrorCallback `(v ~T0 @X0 1 sf ]
+"461
+{
+[e :U _UART1_DefaultOverrunErrorCallback ]
+[f ]
+"463
+[e :UE 3357 ]
+}
+"465
+[v _UART1_DefaultParityErrorCallback `(v ~T0 @X0 1 sf ]
+"466
+{
+[e :U _UART1_DefaultParityErrorCallback ]
+[f ]
+"468
+[e :UE 3358 ]
+}
+"470
+[v _UART1_FramingErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F23469 ]
+"471
+{
+[e :U _UART1_FramingErrorCallbackRegister ]
+"470
+[v _callbackHandler `*F23471 ~T0 @X0 1 r1 ]
+"471
+[f ]
+"472
+[e $ ! != -> -> -> 0 `i `*v `*F23472 _callbackHandler 3360  ]
+"473
+{
+"474
+[e = _UART1_FramingErrorHandler _callbackHandler ]
+"475
+}
+[e :U 3360 ]
+"476
+[e :UE 3359 ]
+}
+"478
+[v _UART1_OverrunErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F23475 ]
+"479
+{
+[e :U _UART1_OverrunErrorCallbackRegister ]
+"478
+[v _callbackHandler `*F23477 ~T0 @X0 1 r1 ]
+"479
+[f ]
+"480
+[e $ ! != -> -> -> 0 `i `*v `*F23478 _callbackHandler 3362  ]
+"481
+{
+"482
+[e = _UART1_OverrunErrorHandler _callbackHandler ]
+"483
+}
+[e :U 3362 ]
+"484
+[e :UE 3361 ]
+}
+"486
+[v _UART1_ParityErrorCallbackRegister `(v ~T0 @X0 1 ef1`*F23481 ]
+"487
+{
+[e :U _UART1_ParityErrorCallbackRegister ]
+"486
+[v _callbackHandler `*F23483 ~T0 @X0 1 r1 ]
+"487
+[f ]
+"488
+[e $ ! != -> -> -> 0 `i `*v `*F23484 _callbackHandler 3364  ]
+"489
+{
+"490
+[e = _UART1_ParityErrorHandler _callbackHandler ]
+"491
+}
+[e :U 3364 ]
+"492
+[e :UE 3363 ]
+}
+"493
+[v _UART1_RxCompleteCallbackRegister `(v ~T0 @X0 1 ef1`*F23487 ]
+"494
+{
+[e :U _UART1_RxCompleteCallbackRegister ]
+"493
+[v _callbackHandler `*F23489 ~T0 @X0 1 r1 ]
+"494
+[f ]
+"495
+[e $ ! != -> -> -> 0 `i `*v `*F23490 _callbackHandler 3366  ]
+"496
+{
+"497
+[e = _UART1_RxCompleteInterruptHandler _callbackHandler ]
+"498
+}
+[e :U 3366 ]
+"499
+[e :UE 3365 ]
+}
+"501
+[v _UART1_TxCompleteCallbackRegister `(v ~T0 @X0 1 ef1`*F23493 ]
+"502
+{
+[e :U _UART1_TxCompleteCallbackRegister ]
+"501
+[v _callbackHandler `*F23495 ~T0 @X0 1 r1 ]
+"502
+[f ]
+"503
+[e $ ! != -> -> -> 0 `i `*v `*F23496 _callbackHandler 3368  ]
+"504
+{
+"505
+[e = _UART1_TxCompleteInterruptHandler _callbackHandler ]
+"506
+}
+[e :U 3368 ]
+"507
+[e :UE 3367 ]
 }

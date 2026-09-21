@@ -33,7 +33,7 @@
     THIS SOFTWARE.
 */
 #include "mcc_generated_files/system/system.h"
-
+#include "stdio.h"
 /*
     Main application
 */
@@ -46,7 +46,7 @@ int main(void)
     // Use the following macros to: 
 
     // Enable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptEnable(); 
+    INTERRUPT_GlobalInterruptEnable(); 
 
     // Disable the Global Interrupts 
     //INTERRUPT_GlobalInterruptDisable(); 
@@ -54,5 +54,7 @@ int main(void)
 
     while(1)
     {
+        printf("Test\r\n");
+        __delay_ms(1000);
     }    
 }

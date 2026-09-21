@@ -3,6 +3,10 @@
 [d edition pro ]
 [d chip 18F26Q84 ]
 [d frameptr 1249 ]
+"1177 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
 "4 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
 "62 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\float.c
@@ -15,6 +19,12 @@
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
 "19 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
 "10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
@@ -33,29 +43,89 @@
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 "42 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
-"83
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"106
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
-"92
+"115
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
-"96
+"119
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"109
+"132
 [v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
-"118
+"141
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
-"122
+"145
 [v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"135
+"158
 [v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
-"144
+"167
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
-"148
+"171
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-[s S70 . 1 `uc 1 INT0IF 1 0 :1:0 
+"123 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"185
+[v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
+"220
+[v _UART1_TransmitEnable UART1_TransmitEnable `(v  1 e 1 0 ]
+"225
+[v _UART1_TransmitDisable UART1_TransmitDisable `(v  1 e 1 0 ]
+"250
+[v _UART1_AutoBaudSet UART1_AutoBaudSet `(v  1 e 1 0 ]
+"263
+[v _UART1_AutoBaudQuery UART1_AutoBaudQuery `(a  1 e 1 0 ]
+"302
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+"307
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+"312
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+"317
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"324
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"342
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+"386
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"411
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+"442
+[v _putch putch `(v  1 e 1 0 ]
+"455
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"460
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"465
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"470
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"478
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"486
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"493
+[v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"501
+[v _UART1_TxCompleteCallbackRegister UART1_TxCompleteCallbackRegister `(v  1 e 1 0 ]
+[s S197 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 CANRXIE 1 0 :1:4 
+`uc 1 CANTXIE 1 0 :1:5 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"801 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[u S206 . 1 `S197 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES206  1 e 1 @1186 ]
+[s S104 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -64,10 +134,22 @@
 `uc 1 SMT1PRAIF 1 0 :1:6 
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
-"1592 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[u S79 . 1 `S70 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES79  1 e 1 @1199 ]
-[s S101 . 1 `uc 1 INT1IF 1 0 :1:0 
+"1592
+[u S113 . 1 `S104 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES113  1 e 1 @1199 ]
+[s S218 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 CANRXIF 1 0 :1:4 
+`uc 1 CANTXIF 1 0 :1:5 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"1786
+[u S227 . 1 `S218 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES227  1 e 1 @1202 ]
+[s S135 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 CLC2IF 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -77,9 +159,9 @@
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "1910
-[u S110 . 1 `S101 1 . 1 0 ]
-[v _PIR6bits PIR6bits `VES110  1 e 1 @1204 ]
-[s S132 . 1 `uc 1 INT2IF 1 0 :1:0 
+[u S144 . 1 `S135 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES144  1 e 1 @1204 ]
+[s S166 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 CLC5IF 1 0 :1:1 
 `uc 1 CWG2IF 1 0 :1:2 
 `uc 1 NCO2IF 1 0 :1:3 
@@ -89,8 +171,8 @@
 `uc 1 DMA3AIF 1 0 :1:7 
 ]
 "2148
-[u S141 . 1 `S132 1 . 1 0 ]
-[v _PIR10bits PIR10bits `VES141  1 e 1 @1208 ]
+[u S175 . 1 `S166 1 . 1 0 ]
+[v _PIR10bits PIR10bits `VES175  1 e 1 @1208 ]
 "2498
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
 "2560
@@ -105,7 +187,7 @@
 [v _TRISC TRISC `VEuc  1 e 1 @1224 ]
 "2870
 [v _TRISE TRISE `VEuc  1 e 1 @1226 ]
-[s S44 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[s S28 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -114,11 +196,11 @@
 `uc 1 GIE 1 0 :1:7 
 ]
 "3118
-[s S52 . 1 `uc 1 . 1 0 :7:0 
+[s S36 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S55 . 1 `S44 1 . 1 0 `S52 1 . 1 0 ]
-[v _INTCON0bits INTCON0bits `VES55  1 e 1 @1238 ]
+[u S39 . 1 `S28 1 . 1 0 `S36 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES39  1 e 1 @1238 ]
 "5222
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "5263
@@ -131,6 +213,10 @@
 [v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
 "5703
 [v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"24293
+[v _RB4PPS RB4PPS `VEuc  1 e 1 @525 ]
+"28836
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
 "29532
 [v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
 "29664
@@ -139,6 +225,124 @@
 [v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
 "29928
 [v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"31270
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"31308
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @674 ]
+"31328
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"31366
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @676 ]
+"31393
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"31413
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"31440
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"31460
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"31487
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"31507
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"31527
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S682 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"31560
+[s S687 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S693 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S698 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S704 . 1 `S682 1 . 1 0 `S687 1 . 1 0 `S693 1 . 1 0 `S698 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES704  1 e 1 @683 ]
+"31655
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S646 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"31680
+[s S654 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S662 . 1 `S646 1 . 1 0 `S654 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES662  1 e 1 @684 ]
+"31735
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"31884
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"31904
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"31924
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+"32054
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+[s S732 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"32075
+[s S738 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+[u S744 . 1 `S732 1 . 1 0 `S738 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES744  1 e 1 @689 ]
+"32110
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S760 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"32137
+[s S769 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S778 . 1 `S760 1 . 1 0 `S769 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES778  1 e 1 @690 ]
+"32222
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
 "59137
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
 "59199
@@ -199,52 +403,215 @@
 [v _IOCEF IOCEF `VEuc  1 e 1 @1063 ]
 "63400
 [v _FSCMCON FSCMCON `VEuc  1 e 1 @1112 ]
+"153 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
 "40
 [v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"83 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"84
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"85
+[v _uart1TxBuffer uart1TxBuffer `VE[64]uc  1 s 64 uart1TxBuffer ]
+"86
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 s 1 uart1TxBufferRemaining ]
+"88
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"89
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"90
+[v _uart1RxBuffer uart1RxBuffer `VE[64]uc  1 s 64 uart1RxBuffer ]
+[s S578 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"91
+[u S583 . 2 `S578 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[64]S583  1 s 128 uart1RxStatusBuffer ]
+"92
+[v _uart1RxCount uart1RxCount `VEuc  1 s 1 uart1RxCount ]
+"99
+[v _uart1RxLastError uart1RxLastError `VES583  1 s 2 uart1RxLastError ]
+"105
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 s 2 UART1_FramingErrorHandler ]
+"106
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 s 2 UART1_OverrunErrorHandler ]
+"107
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.37(v  1 s 2 UART1_ParityErrorHandler ]
+"108
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.37(v  1 e 2 0 ]
+"109
+[v _UART1_TxCompleteInterruptHandler UART1_TxCompleteInterruptHandler `*.37(v  1 s 2 UART1_TxCompleteInterruptHandler ]
+"110
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.37(v  1 e 2 0 ]
+"111
+[v _UART1_RxCompleteInterruptHandler UART1_RxCompleteInterruptHandler `*.37(v  1 s 2 UART1_RxCompleteInterruptHandler ]
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"58
+"60
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 29 ]
+"5
+[v printf@fmt fmt `*.31Cuc  1 p 1 28 ]
+"13
+} 0
+"1817 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 27 ]
+[s S1414 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S1414  1 p 2 22 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 24 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 25 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S1414 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.39S1414  1 p 2 16 ]
+[v vfpfcnvrt@fmt fmt `*.39*.31uc  1 p 2 18 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 20 ]
+"1814
+} 0
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 7 ]
+[u S1393 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S1396 _IO_FILE 11 `S1393 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S1396  1 p 2 9 ]
+"24
+} 0
+"442 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 6 ]
+"449
+} 0
+"386
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v UART1_Write@txData txData `uc  1 p 1 wreg ]
+"388
+[v UART1_Write@tempTxHead tempTxHead `uc  1 a 1 4 ]
+"386
+[v UART1_Write@txData txData `uc  1 p 1 wreg ]
+"390
+[v UART1_Write@txData txData `uc  1 p 1 5 ]
+"408
+} 0
+"307
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+{
+"310
 } 0
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"46
+"47
+} 0
+"123 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"183
+} 0
+"486
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"492
+} 0
+"478
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"484
+} 0
+"470
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 4 ]
+"476
 } 0
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"120
+"122
 } 0
 "42 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "71
 } 0
-"144
+"167
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
-"146
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"169
 } 0
-"118
+"141
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
-"120
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"143
 } 0
-"92
+"115
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
-"94
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
+"117
 } 0
 "39 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "64
+} 0
+"80 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"95
+} 0
+"411 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
+[v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
+{
+"413
+[v UART1_TransmitISR@tempTxTail tempTxTail `uc  1 a 1 0 ]
+"431
+} 0
+"342
+[v _UART1_ReceiveISR UART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"345
+[v UART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 1 ]
+"344
+[v UART1_ReceiveISR@regValue regValue `uc  1 a 1 0 ]
+"384
+} 0
+"460
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+{
+"463
+} 0
+"455
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+{
+"458
 } 0

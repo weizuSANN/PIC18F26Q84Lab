@@ -96,3 +96,22 @@ PICkit5を選ぶと大体書き込まれます。
 
 プログラムを書くために各ペリフェラルの設定をしないといけない。いやだねえ…。STMは初期設定で生成できるのに…。
 そのうち書くよ。
+
+### UART
+UARTはすべての通信の基本ってはっきりわかんだね。printfで値採れるようにしないと話進まないのでとりあえずUARTで（PCに対して）printfするのを目指す方向にします。
+
+MCCを開いて左サイドバーのDeviceResourceを開きます。Driverのトグルの中に、少しスクロールするとUARTがあるので追加。
+
+UART展開して＋ボタンを押し、Add UARTする。
+
+![MCC Device Resources](Picture/18_MCCDeviceResources.png)
+
+右サイドバーにUARTの設定が表示されるようになるので、設定を変更します。主にBaudrateの変更と、printfのリダイレクト、割り込み有効化とバッファのサイズ変更です。あと、ピンを設定する必要があります。わかりやすくするためにRB4をTX、RB5をRXとしました。ピンの設定は下のグリッドか、パッケージビューでピンのテキストを押すかで設定可能です。
+
+![UART Settings](Picture/19_UARTSettings.png)
+
+これが終わったらGenerate。UART関連のファイルが生成されます。main.cを開いて、``` INTERRUPT_GlobalInterruptEnable(); ```のコメントアウトを解除します。
+
+適当にUARTの配線組んでCH340Eぶっさします。F5押して、VSCode上部に出る再生ボタンをクリック。すると、SerialMonitorにTestと流れ出します。
+
+![UART](Picture/20_UART.png)
