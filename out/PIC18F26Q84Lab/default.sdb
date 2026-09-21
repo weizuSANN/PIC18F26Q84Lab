@@ -3,6 +3,115 @@
 [d edition pro ]
 [d chip 18F26Q84 ]
 [d frameptr 1249 ]
+"57 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\main.c
+[e E23345 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"219 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\adc\src\adc.c
+[e E22926 . `uc
+context_1 0
+]
+"229
+[e E22842 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"254
+[e E22850 . `uc
+ADC_BASIC 0
+ADC_SERIES_ACCUMULATE 1
+ADC_SERIES_AVERAGE 2
+ADC_BURST_AVERAGE 3
+ADC_LOW_PASS_FILTER 4
+]
+"259
+[e E22864 . `uc
+ADC_NEVER_INTERRUPT 0
+ADC_BELOW_LOWER_THRESHOLD 1
+ADC_ABOVE_LOWER_THRESHOLD 2
+ADC_INSIDE_LOWER_AND_UPPER_THRESHOLD 3
+ADC_OUTSIDE_LOWER_AND_UPPER_THRESHOLD 4
+ADC_BELOW_UPPER_THRESHOLD 5
+ADC_ABOVE_UPPER_THRESHOLD 6
+ADC_ALWAYS_INTERRUPT 7
+]
+"398
+[e E22916 . `uc
+ADC_NOT_CONVERTING 0
+ADC_1ST_PRECHARGE 1
+ADC_1ST_ACQUISITION 2
+ADC_1ST_CONVERSION 3
+ADC_SUSPENDED_BETWEEN_1ST_AND_2ND_SAMPLE 4
+ADC_2ND_PRECHARGE 5
+ADC_2ND_ACQUISITION 6
+ADC_2ND_CONVERSION 7
+]
+"403
+[e E22857 . `uc
+ADC_FIRST_DERIVATIVE_OF_SINGLE_MEASUREMENT 0
+ADC_ACTUAL_RESULT_VS_SETPOINT 1
+ADC_ACTUAL_RESULT_VS_FILTERED_VALUE 2
+ADC_FIRST_DERIVATIVE_OF_FILTERED_VALUE 4
+ADC_FILTERED_VALUE_VS_SETPOINT 5
+]
+"443
+[e E22874 . `uc
+ADC_TRIGGER_SOURCE_DISABLED 0
+ADC_TRIGGER_SOURCE_ADACTPPS 1
+ADC_TRIGGER_SOURCE_TMR0 2
+ADC_TRIGGER_SOURCE_TMR1 3
+ADC_TRIGGER_SOURCE_TMR2 4
+ADC_TRIGGER_SOURCE_TMR3 5
+ADC_TRIGGER_SOURCE_TMR4 6
+ADC_TRIGGER_SOURCE_TMR5 7
+ADC_TRIGGER_SOURCE_TMR6 8
+ADC_TRIGGER_SOURCE_TU16A 9
+ADC_TRIGGER_SOURCE_TU16B 10
+ADC_TRIGGER_SOURCE_SMT1_OVERFLOW 14
+ADC_TRIGGER_SOURCE_CCP1 15
+ADC_TRIGGER_SOURCE_CCP2 16
+ADC_TRIGGER_SOURCE_CCP3 17
+ADC_TRIGGER_SOURCE_PWM1_OUT1 18
+ADC_TRIGGER_SOURCE_PWM1_OUT2 19
+ADC_TRIGGER_SOURCE_PWM2_OUT1 20
+ADC_TRIGGER_SOURCE_PWM2_OUT2 21
+ADC_TRIGGER_SOURCE_PWM3_OUT1 22
+ADC_TRIGGER_SOURCE_PWM3_OUT2 23
+ADC_TRIGGER_SOURCE_PWM4_OUT1 24
+ADC_TRIGGER_SOURCE_PWM4_OUT2 25
+ADC_TRIGGER_SOURCE_NCO1 26
+ADC_TRIGGER_SOURCE_NCO2 27
+ADC_TRIGGER_SOURCE_NCO3 28
+ADC_TRIGGER_SOURCE_CMP1 29
+ADC_TRIGGER_SOURCE_CMP2 30
+ADC_TRIGGER_SOURCE_LOGICAL_OR_OF_ALL_IOC_FLAGS 31
+ADC_TRIGGER_SOURCE_CLC1 32
+ADC_TRIGGER_SOURCE_CLC2 33
+ADC_TRIGGER_SOURCE_CLC3 34
+ADC_TRIGGER_SOURCE_CLC4 35
+ADC_TRIGGER_SOURCE_CLC5 36
+ADC_TRIGGER_SOURCE_CLC6 37
+ADC_TRIGGER_SOURCE_CLC7 38
+ADC_TRIGGER_SOURCE_CLC8 39
+ADC_TRIGGER_SOURCE_ADERRH 61
+ADC_TRIGGER_SOURCE_ADRESH 62
+ADC_TRIGGER_SOURCE_ADPCH 63
+]
+"1 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
 "1177 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
 [v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
 "1817
@@ -39,29 +148,37 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\main.c
 [v _main main `(i  1 e 2 0 ]
+"46 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"286
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+"619
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"633
+[v _ADC_Context1ThresholdISR ADC_Context1ThresholdISR `(v  1 e 1 0 ]
 "39 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 "42 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "80
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"106
+"114
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
-"115
+"123
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
-"119
+"127
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"132
+"140
 [v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
-"141
+"149
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
-"145
+"153
 [v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"158
+"166
 [v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
-"167
+"175
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
-"171
+"179
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
@@ -113,7 +230,33 @@
 [v _UART1_RxCompleteCallbackRegister UART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
 "501
 [v _UART1_TxCompleteCallbackRegister UART1_TxCompleteCallbackRegister `(v  1 e 1 0 ]
-[s S197 . 1 `uc 1 U1RXIE 1 0 :1:0 
+[s S204 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ACTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"607 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[u S213 . 1 `S204 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES213  1 e 1 @1183 ]
+[s S251 . 1 `uc 1 ADTIE 1 0 :1:0 
+`uc 1 ADCH2IE 1 0 :1:1 
+`uc 1 ADCH3IE 1 0 :1:2 
+`uc 1 ADCH4IE 1 0 :1:3 
+`uc 1 DMA1SCNTIE 1 0 :1:4 
+`uc 1 DMA1DCNTIE 1 0 :1:5 
+`uc 1 DMA1ORIE 1 0 :1:6 
+`uc 1 DMA1AIE 1 0 :1:7 
+]
+"672
+[s S260 . 1 `uc 1 ADCH1IE 1 0 :1:0 
+]
+[u S262 . 1 `S251 1 . 1 0 `S260 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES262  1 e 1 @1184 ]
+[s S924 . 1 `uc 1 U1RXIE 1 0 :1:0 
 `uc 1 U1TXIE 1 0 :1:1 
 `uc 1 U1EIE 1 0 :1:2 
 `uc 1 U1IE 1 0 :1:3 
@@ -122,10 +265,10 @@
 `uc 1 PWM1PIE 1 0 :1:6 
 `uc 1 PWM1IE 1 0 :1:7 
 ]
-"801 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
-[u S206 . 1 `S197 1 . 1 0 ]
-[v _PIE4bits PIE4bits `VES206  1 e 1 @1186 ]
-[s S104 . 1 `uc 1 INT0IF 1 0 :1:0 
+"801
+[u S933 . 1 `S924 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES933  1 e 1 @1186 ]
+[s S183 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -135,9 +278,23 @@
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "1592
-[u S113 . 1 `S104 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES113  1 e 1 @1199 ]
-[s S218 . 1 `uc 1 U1RXIF 1 0 :1:0 
+[u S192 . 1 `S183 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES192  1 e 1 @1199 ]
+[s S225 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 ADCH2IF 1 0 :1:1 
+`uc 1 ADCH3IF 1 0 :1:2 
+`uc 1 ADCH4IF 1 0 :1:3 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"1657
+[s S234 . 1 `uc 1 ADCH1IF 1 0 :1:0 
+]
+[u S236 . 1 `S225 1 . 1 0 `S234 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES236  1 e 1 @1200 ]
+[s S945 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
 `uc 1 U1IF 1 0 :1:3 
@@ -147,9 +304,9 @@
 `uc 1 PWM1IF 1 0 :1:7 
 ]
 "1786
-[u S227 . 1 `S218 1 . 1 0 ]
-[v _PIR4bits PIR4bits `VES227  1 e 1 @1202 ]
-[s S135 . 1 `uc 1 INT1IF 1 0 :1:0 
+[u S954 . 1 `S945 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES954  1 e 1 @1202 ]
+[s S862 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 CLC2IF 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -159,9 +316,9 @@
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "1910
-[u S144 . 1 `S135 1 . 1 0 ]
-[v _PIR6bits PIR6bits `VES144  1 e 1 @1204 ]
-[s S166 . 1 `uc 1 INT2IF 1 0 :1:0 
+[u S871 . 1 `S862 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES871  1 e 1 @1204 ]
+[s S893 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 CLC5IF 1 0 :1:1 
 `uc 1 CWG2IF 1 0 :1:2 
 `uc 1 NCO2IF 1 0 :1:3 
@@ -171,8 +328,8 @@
 `uc 1 DMA3AIF 1 0 :1:7 
 ]
 "2148
-[u S175 . 1 `S166 1 . 1 0 ]
-[v _PIR10bits PIR10bits `VES175  1 e 1 @1208 ]
+[u S902 . 1 `S893 1 . 1 0 ]
+[v _PIR10bits PIR10bits `VES902  1 e 1 @1208 ]
 "2498
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
 "2560
@@ -247,34 +404,34 @@
 [v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
 "31527
 [v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
-[s S682 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1449 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 ]
 "31560
-[s S687 . 1 `uc 1 U1MODE 1 0 :4:0 
+[s S1454 . 1 `uc 1 U1MODE 1 0 :4:0 
 `uc 1 U1RXEN 1 0 :1:4 
 `uc 1 U1TXEN 1 0 :1:5 
 `uc 1 U1ABDEN 1 0 :1:6 
 `uc 1 U1BRGS 1 0 :1:7 
 ]
-[s S693 . 1 `uc 1 U1MODE0 1 0 :1:0 
+[s S1460 . 1 `uc 1 U1MODE0 1 0 :1:0 
 `uc 1 U1MODE1 1 0 :1:1 
 `uc 1 U1MODE2 1 0 :1:2 
 `uc 1 U1MODE3 1 0 :1:3 
 ]
-[s S698 . 1 `uc 1 MODE 1 0 :4:0 
+[s S1465 . 1 `uc 1 MODE 1 0 :4:0 
 `uc 1 RXEN 1 0 :1:4 
 `uc 1 TXEN 1 0 :1:5 
 `uc 1 ABDEN 1 0 :1:6 
 `uc 1 BRGS 1 0 :1:7 
 ]
-[u S704 . 1 `S682 1 . 1 0 `S687 1 . 1 0 `S693 1 . 1 0 `S698 1 . 1 0 ]
-[v _U1CON0bits U1CON0bits `VES704  1 e 1 @683 ]
+[u S1471 . 1 `S1449 1 . 1 0 `S1454 1 . 1 0 `S1460 1 . 1 0 `S1465 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES1471  1 e 1 @683 ]
 "31655
 [v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
-[s S646 . 1 `uc 1 SENDB 1 0 :1:0 
+[s S1413 . 1 `uc 1 SENDB 1 0 :1:0 
 `uc 1 BRKOVR 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 RXBIMD 1 0 :1:3 
@@ -283,7 +440,7 @@
 `uc 1 ON 1 0 :1:7 
 ]
 "31680
-[s S654 . 1 `uc 1 U1SENDB 1 0 :1:0 
+[s S1421 . 1 `uc 1 U1SENDB 1 0 :1:0 
 `uc 1 U1BRKOVR 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 U1RXBIMD 1 0 :1:3 
@@ -291,8 +448,8 @@
 `uc 1 . 1 0 :2:5 
 `uc 1 U1ON 1 0 :1:7 
 ]
-[u S662 . 1 `S646 1 . 1 0 `S654 1 . 1 0 ]
-[v _U1CON1bits U1CON1bits `VES662  1 e 1 @684 ]
+[u S1429 . 1 `S1413 1 . 1 0 `S1421 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES1429  1 e 1 @684 ]
 "31735
 [v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
 "31884
@@ -303,24 +460,24 @@
 [v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
 "32054
 [v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
-[s S732 . 1 `uc 1 . 1 0 :2:0 
+[s S1499 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ABDIE 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 ABDIF 1 0 :1:6 
 `uc 1 WUIF 1 0 :1:7 
 ]
 "32075
-[s S738 . 1 `uc 1 . 1 0 :2:0 
+[s S1505 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 U1ABDIE 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 U1ABDIF 1 0 :1:6 
 `uc 1 U1WUIF 1 0 :1:7 
 ]
-[u S744 . 1 `S732 1 . 1 0 `S738 1 . 1 0 ]
-[v _U1UIRbits U1UIRbits `VES744  1 e 1 @689 ]
+[u S1511 . 1 `S1499 1 . 1 0 `S1505 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES1511  1 e 1 @689 ]
 "32110
 [v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
-[s S760 . 1 `uc 1 TXCIF 1 0 :1:0 
+[s S1527 . 1 `uc 1 TXCIF 1 0 :1:0 
 `uc 1 RXFOIF 1 0 :1:1 
 `uc 1 RXBKIF 1 0 :1:2 
 `uc 1 FERIF 1 0 :1:3 
@@ -330,7 +487,7 @@
 `uc 1 TXMTIF 1 0 :1:7 
 ]
 "32137
-[s S769 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+[s S1536 . 1 `uc 1 U1TXCIF 1 0 :1:0 
 `uc 1 U1RXFOIF 1 0 :1:1 
 `uc 1 U1RXBKIF 1 0 :1:2 
 `uc 1 U1FERIF 1 0 :1:3 
@@ -339,10 +496,271 @@
 `uc 1 U1PERIF 1 0 :1:6 
 `uc 1 U1TXMTIF 1 0 :1:7 
 ]
-[u S778 . 1 `S760 1 . 1 0 `S769 1 . 1 0 ]
-[v _U1ERRIRbits U1ERRIRbits `VES778  1 e 1 @690 ]
+[u S1545 . 1 `S1527 1 . 1 0 `S1536 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1545  1 e 1 @690 ]
 "32222
 [v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"54973
+[v _ADCP ADCP `VEuc  1 e 1 @984 ]
+[s S577 . 1 `uc 1 CPRDY 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 ON 1 0 :1:7 
+]
+"55038
+[s S581 . 1 `uc 1 ADCPRDY 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 CPON 1 0 :1:7 
+]
+"55038
+[s S585 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCPON 1 0 :1:7 
+]
+"55038
+[u S588 . 1 `S577 1 . 1 0 `S581 1 . 1 0 `S585 1 . 1 0 ]
+"55038
+"55038
+[v _ADCPbits ADCPbits `VES588  1 e 1 @984 ]
+"55075
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"55203
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"55338
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"55466
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"55601
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"55729
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"55864
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"55992
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"56127
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"56255
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"56392
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"56520
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"56648
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"56704
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"56832
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"56967
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"57095
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"57230
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"57358
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"57478
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"57543
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"57671
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"57763
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"57822
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"57950
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"58042
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S93 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 CSEN 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"58080
+[s S101 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 ADCSEN 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"58080
+[s S109 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+"58080
+[s S113 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+"58080
+[s S115 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+"58080
+[u S119 . 1 `S93 1 . 1 0 `S101 1 . 1 0 `S109 1 . 1 0 `S113 1 . 1 0 `S115 1 . 1 0 ]
+"58080
+"58080
+[v _ADCON0bits ADCON0bits `VES119  1 e 1 @1011 ]
+"58170
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S493 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"58191
+[s S499 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"58191
+[u S505 . 1 `S493 1 . 1 0 `S499 1 . 1 0 ]
+"58191
+"58191
+[v _ADCON1bits ADCON1bits `VES505  1 e 1 @1012 ]
+"58236
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S293 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"58284
+[s S298 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"58284
+[s S307 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+"58284
+[s S311 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+"58284
+[s S319 . 1 `uc 1 MD 1 0 :3:0 
+]
+"58284
+[s S321 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+"58284
+[s S325 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+"58284
+[u S327 . 1 `S293 1 . 1 0 `S298 1 . 1 0 `S307 1 . 1 0 `S311 1 . 1 0 `S319 1 . 1 0 `S321 1 . 1 0 `S325 1 . 1 0 ]
+"58284
+"58284
+[v _ADCON2bits ADCON2bits `VES327  1 e 1 @1013 ]
+"58414
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S379 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"58449
+[s S383 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"58449
+[s S391 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"58449
+[s S395 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+"58449
+[u S403 . 1 `S379 1 . 1 0 `S383 1 . 1 0 `S391 1 . 1 0 `S395 1 . 1 0 ]
+"58449
+"58449
+[v _ADCON3bits ADCON3bits `VES403  1 e 1 @1014 ]
+"58544
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S433 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 OV 1 0 :1:7 
+]
+"58579
+[s S440 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"58579
+[s S449 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+"58579
+[s S453 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+"58579
+[u S457 . 1 `S433 1 . 1 0 `S440 1 . 1 0 `S449 1 . 1 0 `S453 1 . 1 0 ]
+"58579
+"58579
+[v _ADSTATbits ADSTATbits `VES457  1 e 1 @1015 ]
+"58669
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"58751
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"58855
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
+"58959
+[v _ADCTX ADCTX `VEuc  1 e 1 @1019 ]
+"59029
+[v _ADCSEL1 ADCSEL1 `VEuc  1 e 1 @1020 ]
+[s S610 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 SSI 1 0 :1:6 
+`uc 1 CHEN 1 0 :1:7 
+]
+"59041
+[u S614 . 1 `S610 1 . 1 0 ]
+"59041
+"59041
+[v _ADCSEL1bits ADCSEL1bits `VES614  1 e 1 @1020 ]
 "59137
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
 "59199
@@ -408,6 +826,14 @@
 [v _width width `i  1 s 2 width ]
 "154
 [v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _adc_busy_status adc_busy_status `a  1 s 1 adc_busy_status ]
+"42
+[v _ADC_ConversionDoneCallback ADC_ConversionDoneCallback `*.37(v  1 s 2 ADC_ConversionDoneCallback ]
+"43
+[v _ADC_Context1ThresholdCallback ADC_Context1ThresholdCallback `*.37(v  1 s 2 ADC_Context1ThresholdCallback ]
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
@@ -428,18 +854,18 @@
 [v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
 "90
 [v _uart1RxBuffer uart1RxBuffer `VE[64]uc  1 s 64 uart1RxBuffer ]
-[s S578 . 1 `uc 1 perr 1 0 :1:0 
+[s S1345 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
 "91
-[u S583 . 2 `S578 1 . 1 0 `ui 1 status 2 0 ]
-[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[64]S583  1 s 128 uart1RxStatusBuffer ]
+[u S1350 . 2 `S1345 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[64]S1350  1 s 128 uart1RxStatusBuffer ]
 "92
 [v _uart1RxCount uart1RxCount `VEuc  1 s 1 uart1RxCount ]
 "99
-[v _uart1RxLastError uart1RxLastError `VES583  1 s 2 uart1RxLastError ]
+[v _uart1RxLastError uart1RxLastError `VES1350  1 s 2 uart1RxLastError ]
 "105
 [v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 s 2 UART1_FramingErrorHandler ]
 "106
@@ -457,34 +883,45 @@
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"60
+"57
+[v main@adc_val adc_val `s  1 a 2 44 ]
+"61
 } 0
 "5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\printf.c
 [v _printf printf `(i  1 e 2 0 ]
 {
 "8
-[v printf@ap ap `[1]*.39v  1 a 2 29 ]
+[v printf@ap ap `[1]*.39v  1 a 2 40 ]
 "5
-[v printf@fmt fmt `*.31Cuc  1 p 1 28 ]
+[v printf@fmt fmt `*.31Cuc  1 p 1 37 ]
 "13
 } 0
 "1817 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
 "1820
-[v vfprintf@cfmt cfmt `*.31uc  1 a 1 27 ]
-[s S1414 _IO_FILE 0 ]
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 36 ]
+[s S2180 _IO_FILE 0 ]
 "1817
-[v vfprintf@fp fp `*.39S1414  1 p 2 22 ]
-[v vfprintf@fmt fmt `*.31Cuc  1 p 1 24 ]
-[v vfprintf@ap ap `*.39*.39v  1 p 2 25 ]
+[v vfprintf@fp fp `*.39S2180  1 p 2 31 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 33 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 34 ]
 "1840
 } 0
 "1177
 [v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
 {
-[s S1414 _IO_FILE 0 ]
-[v vfpfcnvrt@fp fp `*.39S1414  1 p 2 16 ]
+[u S2193 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S2193  1 a 4 26 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 30 ]
+[v vfpfcnvrt@cp cp `*.31uc  1 a 1 25 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 24 ]
+[s S2180 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S2180  1 p 2 16 ]
 [v vfpfcnvrt@fmt fmt `*.39*.31uc  1 p 2 18 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 20 ]
 "1814
@@ -493,9 +930,9 @@
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 7 ]
-[u S1393 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
-[s S1396 _IO_FILE 11 `S1393 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
-[v fputc@fp fp `*.39S1396  1 p 2 9 ]
+[u S2159 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S2162 _IO_FILE 11 `S2159 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S2162  1 p 2 9 ]
 "24
 } 0
 "442 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
@@ -523,10 +960,40 @@
 {
 "310
 } 0
+"1 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 10 ]
+"4
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 4 ]
+[v ___awmod@divisor divisor `i  1 p 2 6 ]
+"34
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 10 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 9 ]
+[v ___awdiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+"41
+} 0
 "41 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"47
+"48
 } 0
 "123 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
@@ -561,33 +1028,47 @@
 {
 "71
 } 0
-"167
+"175
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
-"169
+"177
 } 0
-"141
+"149
 [v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
-"143
+"151
 } 0
-"115
+"123
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 4 ]
-"117
+"125
 } 0
 "39 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "64
 } 0
+"46 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"286
+[v _ADC_ChannelSelectAndConvert ADC_ChannelSelectAndConvert `(s  1 e 2 0 ]
+{
+[v ADC_ChannelSelectAndConvert@channel channel `E22842  1 p 1 wreg ]
+[v ADC_ChannelSelectAndConvert@channel channel `E22842  1 p 1 wreg ]
+"288
+[v ADC_ChannelSelectAndConvert@channel channel `E22842  1 p 1 8 ]
+"298
+} 0
 "80 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
-"95
+"103
 } 0
 "411 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\uart\src\uart1.c
 [v _UART1_TransmitISR UART1_TransmitISR `(v  1 e 1 0 ]
@@ -614,4 +1095,14 @@
 [v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
 {
 "458
+} 0
+"619 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"631
+} 0
+"633
+[v _ADC_Context1ThresholdISR ADC_Context1ThresholdISR `(v  1 e 1 0 ]
+{
+"645
 } 0

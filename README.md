@@ -98,6 +98,7 @@ PICkit5を選ぶと大体書き込まれます。
 そのうち書くよ。
 
 ### UART
+[この回のコミット](https://github.com/weizuSANN/PIC18F26Q84Lab/commit/52bc76c37605db03b4f2d8d9bdd2c6c161efa125)
 UARTはすべての通信の基本ってはっきりわかんだね。printfで値採れるようにしないと話進まないのでとりあえずUARTで（PCに対して）printfするのを目指す方向にします。
 
 MCCを開いて左サイドバーのDeviceResourceを開きます。Driverのトグルの中に、少しスクロールするとUARTがあるので追加。
@@ -115,3 +116,14 @@ UART展開して＋ボタンを押し、Add UARTする。
 適当にUARTの配線組んでCH340Eぶっさします。F5押して、VSCode上部に出る再生ボタンをクリック。すると、SerialMonitorにTestと流れ出します。
 
 ![UART](Picture/20_UART.png)
+
+### ADC(CVD)
+今回の目標だったりする。PIC18F26Q84は、ADCは当然読めますが、その中にCVDという機能があります。いわゆる静電容量センサです。さっきのようにADCを追加して、Easy viewは特に変えずに、Context1だけ変更します。RA0で読み取ることを前提としてます。それ以外ならピンの設定がたぶん必要になります。
+
+キャパシタの充電時間とかそこら辺を設定してGenerate。いいですね。
+
+![ADC Settings](Picture/21_ADCSetting.png)
+
+書き込むと静電容量が吐かれます。ピンに指を近づけると値が3500くらいまで上がります。
+
+![ADC](Picture/22_ADC.png)

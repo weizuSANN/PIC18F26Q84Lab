@@ -54,7 +54,8 @@ int main(void)
 
     while(1)
     {
-        printf("Test\r\n");
+        adc_result_t adc_val = ADC_ChannelSelectAndConvert(IO_RA0);
+        printf("RA0 ADC: %d\r\n", adc_val);
         __delay_ms(1000);
     }    
 }

@@ -6,6 +6,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _fputc `(i ~T0 @X0 0 ef2`i`*S1 ]
 "113
 [v _fputs `(i ~T0 @X0 0 ef2`*Cuc`*S1 ]
+"1182 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[u S16 `i 1 `ui 1 `d 1 ]
+[n S16 . sint uint f ]
+"14 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/stdarg.h
+[v ___va_arg `(*v ~T0 @X0 0 ev`*v ]
+[p i ___va_arg ]
+"78 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/stdlib.h
+[v _abs `(i ~T0 @X0 0 ef1`i ]
 "153 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\doprnt.c
 [v _prec `i ~T0 @X0 1 s ]
 [v _width `i ~T0 @X0 1 s ]
@@ -71,8 +79,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _cp `*uc ~T0 @X0 1 a ]
 "1180
 [v _done `a ~T0 @X0 1 a ]
+"1188
+[v _convarg `S16 ~T0 @X0 1 a ]
 "1201
-[e $ ! == -> *U + *U _fmt * -> -> 0 `i `x -> -> # *U *U _fmt `i `x `ui -> 37 `ui 16  ]
+[e $ ! == -> *U + *U _fmt * -> -> 0 `i `x -> -> # *U *U _fmt `i `x `ui -> 37 `ui 17  ]
 {
 "1202
 [e =+ *U _fmt * -> -> 1 `i `x -> -> # *U *U _fmt `i `x ]
@@ -80,6 +90,55 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _flags -> = _width -> 0 `i `uc ]
 "1205
 [e = _prec -U -> 1 `i ]
+"1291
+[e = _cp *U _fmt ]
+"1361
+[e $ ! || == -> *U _cp `ui -> 100 `ui == -> *U _cp `ui -> 105 `ui 18  ]
+{
+"1404
+[e = . _convarg 0 *U -> ( ___va_arg , (. -> *U -> _ap `**i `*v -> 0 `i `*i ]
+"1406
+[e = *U _fmt + _cp * -> -> 1 `i `x -> -> # *U _cp `i `x ]
+"1408
+[e = _c -> -> # _dbuf `ui `uc ]
+"1409
+[e = _done -> -> < . _convarg 0 -> 0 `i `i `a ]
+"1410
+[e :U 21 ]
+{
+"1411
+[e = *U + &U _dbuf * -> =- _c -> -> 1 `i `uc `ux -> -> # *U &U _dbuf `ui `ux -> + -> ( _abs (1 % . _convarg 0 -> 10 `i `ui -> 48 `ui `uc ]
+"1412
+[e =/ . _convarg 0 -> 10 `i ]
+"1416
+}
+[e $ && != . _convarg 0 -> 0 `i != -> _c `i -> 0 `i 21  ]
+[e :U 20 ]
+"1417
+[e $ ! && != -> _c `i -> 0 `i != -> _done `i -> 0 `i 22  ]
+{
+"1418
+[e = *U + &U _dbuf * -> =- _c -> -> 1 `i `uc `ux -> -> # *U &U _dbuf `ui `ux -> -> 45 `ui `uc ]
+"1422
+}
+[e :U 22 ]
+"1423
+[e $U 23  ]
+[e :U 24 ]
+{
+"1424
+[e ( _fputc (2 , -> *U + &U _dbuf * -> ++ _c -> -> 1 `i `uc `ux -> -> # *U &U _dbuf `ui `ux `i _fp ]
+"1425
+}
+[e :U 23 ]
+"1423
+[e $ != -> _c `ui -> # _dbuf `ui 24  ]
+[e :U 25 ]
+"1429
+[e $UE 15  ]
+"1434
+}
+[e :U 18 ]
 "1806
 [e =+ *U _fmt * -> -> 1 `i `x -> -> # *U *U _fmt `i `x ]
 "1807
@@ -87,7 +146,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $UE 15  ]
 "1808
 }
-[e :U 16 ]
+[e :U 17 ]
 "1811
 [e ( _fputc (2 , -> *U + *U _fmt * -> -> 0 `i `x -> -> # *U *U _fmt `i `x `i _fp ]
 "1812
@@ -114,20 +173,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 "1822
 [e = _cfmt _fmt ]
 "1826
-[e $U 18  ]
-[e :U 19 ]
+[e $U 27  ]
+[e :U 28 ]
 {
 "1830
 [e ( _vfpfcnvrt (3 , , _fp &U _cfmt _ap ]
 "1831
 }
-[e :U 18 ]
+[e :U 27 ]
 "1826
-[e $ != -> *U _cfmt `i -> 0 `i 19  ]
-[e :U 20 ]
+[e $ != -> *U _cfmt `i -> 0 `i 28  ]
+[e :U 29 ]
 "1835
 [e ) -> 0 `i ]
-[e $UE 17  ]
+[e $UE 26  ]
 "1840
-[e :UE 17 ]
+[e :UE 26 ]
 }

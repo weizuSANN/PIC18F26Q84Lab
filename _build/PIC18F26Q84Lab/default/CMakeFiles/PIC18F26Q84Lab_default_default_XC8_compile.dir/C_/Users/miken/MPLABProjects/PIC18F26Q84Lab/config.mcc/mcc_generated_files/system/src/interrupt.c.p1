@@ -1,7 +1,7 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F23343 `(v ~T0 @X0 0 tf ]
-[v F23345 `(v ~T0 @X0 0 tf ]
-[v F23347 `(v ~T0 @X0 0 tf ]
+[v F23528 `(v ~T0 @X0 0 tf ]
+[v F23530 `(v ~T0 @X0 0 tf ]
+[v F23532 `(v ~T0 @X0 0 tf ]
 "3104 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
 [s S3136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S3136 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
@@ -76,21 +76,55 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v F23332 `(v ~T0 @X0 0 tf ]
 "354
 [v _UART1_RxInterruptHandler `*F23332 ~T0 @X0 0 e ]
+"596 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[s S3050 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3050 . INT0IE ZCDIE ADIE ACTIE C1IE SMT1IE SMT1PRAIE SMT1PWAIE ]
+"595
+[u S3049 `S3050 1 ]
+[n S3049 . . ]
+"607
+[v _PIE1bits `VS3049 ~T0 @X0 0 e@1183 ]
+"615 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/../adc/adc.h
+[v _ADC_ISR `(v ~T0 @X0 0 ef ]
+"658 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
+[s S3052 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3052 . ADTIE ADCH2IE ADCH3IE ADCH4IE DMA1SCNTIE DMA1DCNTIE DMA1ORIE DMA1AIE ]
+"668
+[s S3053 :1 `uc 1 ]
+[n S3053 . ADCH1IE ]
+"657
+[u S3051 `S3052 1 `S3053 1 ]
+[n S3051 . . . ]
+"672
+[v _PIE2bits `VS3051 ~T0 @X0 0 e@1184 ]
+"1643
+[s S3085 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3085 . ADTIF ADCH2IF ADCH3IF ADCH4IF DMA1SCNTIF DMA1DCNTIF DMA1ORIF DMA1AIF ]
+"1653
+[s S3086 :1 `uc 1 ]
+[n S3086 . ADCH1IF ]
+"1642
+[u S3084 `S3085 1 `S3086 1 ]
+[n S3084 . . . ]
+"1657
+[v _PIR2bits `VS3084 ~T0 @X0 0 e@1200 ]
+"623 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/../adc/adc.h
+[v _ADC_Context1ThresholdISR `(v ~T0 @X0 0 ef ]
 "227 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
 [v _INT0_CallBack `(v ~T0 @X0 0 ef ]
-[v F23355 `(v ~T0 @X0 0 tf ]
-[v F23357 `(v ~T0 @X0 0 tf ]
-[v F23359 `(v ~T0 @X0 0 tf ]
+[v F23540 `(v ~T0 @X0 0 tf ]
+[v F23542 `(v ~T0 @X0 0 tf ]
+[v F23544 `(v ~T0 @X0 0 tf ]
 "273
 [v _INT1_CallBack `(v ~T0 @X0 0 ef ]
-[v F23364 `(v ~T0 @X0 0 tf ]
-[v F23366 `(v ~T0 @X0 0 tf ]
-[v F23368 `(v ~T0 @X0 0 tf ]
+[v F23549 `(v ~T0 @X0 0 tf ]
+[v F23551 `(v ~T0 @X0 0 tf ]
+[v F23553 `(v ~T0 @X0 0 tf ]
 "319
 [v _INT2_CallBack `(v ~T0 @X0 0 ef ]
-[v F23373 `(v ~T0 @X0 0 tf ]
-[v F23375 `(v ~T0 @X0 0 tf ]
-[v F23377 `(v ~T0 @X0 0 tf ]
+[v F23558 `(v ~T0 @X0 0 tf ]
+[v F23560 `(v ~T0 @X0 0 tf ]
+[v F23562 `(v ~T0 @X0 0 tf ]
 "290 C:/Users/miken/.mchp_packs/Microchip/PIC18F-Q_DFP/1.31.492/xc8\pic\include\proc/pic18f26q84.h
 [; <" BOOTREG equ 038h ;# ">
 "322
@@ -2444,11 +2478,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "69896
 [; <" TOSU equ 04FFh ;# ">
 "38 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src\interrupt.c
-[v _INT0_InterruptHandler `*F23343 ~T0 @X0 1 e ]
+[v _INT0_InterruptHandler `*F23528 ~T0 @X0 1 e ]
 "39
-[v _INT1_InterruptHandler `*F23345 ~T0 @X0 1 e ]
+[v _INT1_InterruptHandler `*F23530 ~T0 @X0 1 e ]
 "40
-[v _INT2_InterruptHandler `*F23347 ~T0 @X0 1 e ]
+[v _INT2_InterruptHandler `*F23532 ~T0 @X0 1 e ]
 "42
 [v _INTERRUPT_Initialize `(v ~T0 @X0 1 ef ]
 "43
@@ -2506,162 +2540,184 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $U 3309  ]
 "91
 [e :U 3308 ]
+[e $ ! && == -> . . _PIE1bits 0 2 `i -> 1 `i == -> . . _PIR1bits 0 2 `i -> 1 `i 3310  ]
 "92
 {
+"93
+[e ( _ADC_ISR ..  ]
 "94
 }
+[e $U 3311  ]
+"95
+[e :U 3310 ]
+[e $ ! && == -> . . _PIE2bits 1 0 `i -> 1 `i == -> . . _PIR2bits 1 0 `i -> 1 `i 3312  ]
+"96
+{
+"97
+[e ( _ADC_Context1ThresholdISR ..  ]
+"98
+}
+[e $U 3313  ]
+"99
+[e :U 3312 ]
+"100
+{
+"102
+}
+[e :U 3313 ]
+[e :U 3311 ]
 [e :U 3309 ]
 [e :U 3307 ]
-"95
+"103
 [e :UE 3305 ]
 }
-"97
+"105
 [v _INT0_ISR `(v ~T0 @X0 1 ef ]
-"98
+"106
 {
 [e :U _INT0_ISR ]
 [f ]
-"99
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"102
-[e ( _INT0_CallBack ..  ]
-"103
-[e :UE 3310 ]
-}
-"106
-[v _INT0_CallBack `(v ~T0 @X0 1 ef ]
 "107
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"110
+[e ( _INT0_CallBack ..  ]
+"111
+[e :UE 3314 ]
+}
+"114
+[v _INT0_CallBack `(v ~T0 @X0 1 ef ]
+"115
 {
 [e :U _INT0_CallBack ]
 [f ]
-"109
-[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F23355 3312  ]
-"110
+"117
+[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F23540 3316  ]
+"118
 {
-"111
+"119
 [e ( *U _INT0_InterruptHandler ..  ]
-"112
+"120
 }
-[e :U 3312 ]
-"113
-[e :UE 3311 ]
+[e :U 3316 ]
+"121
+[e :UE 3315 ]
 }
-"115
-[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23357 ]
+"123
+[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23542 ]
 {
 [e :U _INT0_SetInterruptHandler ]
-[v _InterruptHandler `*F23359 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F23544 ~T0 @X0 1 r1 ]
 [f ]
-"116
+"124
 [e = _INT0_InterruptHandler _InterruptHandler ]
-"117
-[e :UE 3313 ]
+"125
+[e :UE 3317 ]
 }
-"119
+"127
 [v _INT0_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
 {
 [e :U _INT0_DefaultInterruptHandler ]
 [f ]
-"122
-[e :UE 3314 ]
+"130
+[e :UE 3318 ]
 }
-"123
+"131
 [v _INT1_ISR `(v ~T0 @X0 1 ef ]
-"124
+"132
 {
 [e :U _INT1_ISR ]
 [f ]
-"125
-[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
-"128
-[e ( _INT1_CallBack ..  ]
-"129
-[e :UE 3315 ]
-}
-"132
-[v _INT1_CallBack `(v ~T0 @X0 1 ef ]
 "133
+[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
+"136
+[e ( _INT1_CallBack ..  ]
+"137
+[e :UE 3319 ]
+}
+"140
+[v _INT1_CallBack `(v ~T0 @X0 1 ef ]
+"141
 {
 [e :U _INT1_CallBack ]
 [f ]
-"135
-[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F23364 3317  ]
-"136
+"143
+[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F23549 3321  ]
+"144
 {
-"137
+"145
 [e ( *U _INT1_InterruptHandler ..  ]
-"138
+"146
 }
-[e :U 3317 ]
-"139
-[e :UE 3316 ]
+[e :U 3321 ]
+"147
+[e :UE 3320 ]
 }
-"141
-[v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23366 ]
+"149
+[v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23551 ]
 {
 [e :U _INT1_SetInterruptHandler ]
-[v _InterruptHandler `*F23368 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F23553 ~T0 @X0 1 r1 ]
 [f ]
-"142
+"150
 [e = _INT1_InterruptHandler _InterruptHandler ]
-"143
-[e :UE 3318 ]
+"151
+[e :UE 3322 ]
 }
-"145
+"153
 [v _INT1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
 {
 [e :U _INT1_DefaultInterruptHandler ]
 [f ]
-"148
-[e :UE 3319 ]
+"156
+[e :UE 3323 ]
 }
-"149
+"157
 [v _INT2_ISR `(v ~T0 @X0 1 ef ]
-"150
+"158
 {
 [e :U _INT2_ISR ]
 [f ]
-"151
-[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
-"154
-[e ( _INT2_CallBack ..  ]
-"155
-[e :UE 3320 ]
-}
-"158
-[v _INT2_CallBack `(v ~T0 @X0 1 ef ]
 "159
+[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
+"162
+[e ( _INT2_CallBack ..  ]
+"163
+[e :UE 3324 ]
+}
+"166
+[v _INT2_CallBack `(v ~T0 @X0 1 ef ]
+"167
 {
 [e :U _INT2_CallBack ]
 [f ]
-"161
-[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F23373 3322  ]
-"162
+"169
+[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F23558 3326  ]
+"170
 {
-"163
+"171
 [e ( *U _INT2_InterruptHandler ..  ]
-"164
+"172
 }
-[e :U 3322 ]
-"165
-[e :UE 3321 ]
+[e :U 3326 ]
+"173
+[e :UE 3325 ]
 }
-"167
-[v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23375 ]
+"175
+[v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F23560 ]
 {
 [e :U _INT2_SetInterruptHandler ]
-[v _InterruptHandler `*F23377 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F23562 ~T0 @X0 1 r1 ]
 [f ]
-"168
+"176
 [e = _INT2_InterruptHandler _InterruptHandler ]
-"169
-[e :UE 3323 ]
+"177
+[e :UE 3327 ]
 }
-"171
+"179
 [v _INT2_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
 {
 [e :U _INT2_DefaultInterruptHandler ]
 [f ]
-"174
-[e :UE 3324 ]
+"182
+[e :UE 3328 ]
 }

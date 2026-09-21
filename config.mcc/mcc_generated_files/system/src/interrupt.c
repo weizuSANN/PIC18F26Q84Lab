@@ -88,6 +88,14 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     {
         UART1_RxInterruptHandler();
     }
+    else if(PIE1bits.ADIE == 1 && PIR1bits.ADIF == 1)
+    {
+        ADC_ISR();
+    }
+    else if(PIE2bits.ADCH1IE == 1 && PIR2bits.ADCH1IF == 1)
+    {
+        ADC_Context1ThresholdISR();
+    }
     else
     {
         //Unhandled Interrupt

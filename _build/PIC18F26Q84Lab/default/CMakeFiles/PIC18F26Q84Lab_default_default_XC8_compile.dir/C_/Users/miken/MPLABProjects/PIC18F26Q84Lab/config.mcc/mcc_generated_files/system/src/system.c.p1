@@ -1,8 +1,10 @@
 Version 4.0 HI-TECH Software Intermediate Code
 "56 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/../system/clock.h
 [v _CLOCK_Initialize `(v ~T0 @X0 0 ef ]
-"98 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/pins.h
+"118 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/pins.h
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
+"57 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../adc/adc.h
+[v _ADC_Initialize `(v ~T0 @X0 0 ef ]
 "91 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../uart/uart1.h
 [v _UART1_Initialize `(v ~T0 @X0 0 ef ]
 "69 C:\Users\miken\MPLABProjects\PIC18F26Q84Lab\config.mcc\mcc_generated_files\system\src/../../system/interrupt.h
@@ -2370,9 +2372,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "44
 [e ( _PIN_MANAGER_Initialize ..  ]
 "45
-[e ( _UART1_Initialize ..  ]
+[e ( _ADC_Initialize ..  ]
 "46
-[e ( _INTERRUPT_Initialize ..  ]
+[e ( _UART1_Initialize ..  ]
 "47
+[e ( _INTERRUPT_Initialize ..  ]
+"48
 [e :UE 3304 ]
 }

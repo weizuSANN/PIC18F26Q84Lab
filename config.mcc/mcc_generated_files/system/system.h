@@ -44,6 +44,7 @@
 #include "../uart/uart1.h"
 #include "../system/interrupt.h"
 #include "../system/clock.h"
+#include "../adc/adc.h"
 
 /**
  * @ingroup systemdriver
